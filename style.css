@@ -223,15 +223,11 @@ font-size: 16px;
 .carousel-cell span{
   color: #a7e92f;
 }
-.carousel-cell-btn a{
-text-decoration: none;
-font-size: 20px;
-color: black;
 
-}
 .carousel-cell-btn{
     position: absolute;
-    
+    font-size: 20px;
+color: black;
     border-radius: 16px;
     border: none;
     color: #1b1b1c;
@@ -292,7 +288,7 @@ display: none;
     border: none;
     position: absolute;
     background: transparent;
-    color: #7c8698;
+    color: #cfd7e6;
     margin-left: 7px;
     
 }
@@ -1096,6 +1092,7 @@ display: flex;
 /* Appp */
 #app{
     display: none;
+    
 }
 .app{
     
@@ -1107,6 +1104,7 @@ display: flex;
     margin: auto;
     justify-content: space-between;
     border-radius: 22px;
+    
 }
 .scanner-mobile-app-logo{
     display: flex;
