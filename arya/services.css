@@ -132,7 +132,7 @@ main {
 }
 
 .image {
-    background-image: url(../img/in_local_cover.webp);
+    background-image: url(./img/in_local_cover.webp);
     background-position: center;
     height: 70vh;
     width: 95%;
