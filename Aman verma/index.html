@@ -20,15 +20,19 @@
         function myFunction() {
           var x = document.getElementById("Mobile-scanner");
           var y = document.getElementById("cross-icon");
+          var z=document.querySelector(".become")
+          console.log(z);
+
           if (x.style.display === "block") {
             x.style.display = "none";
             document.body.style.backgroundColor = "rgba(0,0,0,0)";
-            // document.getElementByClassName('header-btn2').style.backgroundColor= 'red';
+            document.getElementByClassName('become').style.backgroundColor= 'red';
            }else {
             x.style.display = "block";
             document.body.style.backgroundColor = "rgba(0,0,0,0.3)";
-            // document.getElementByClassName('header-btn2').style.backgroundColor='red';
+            document.getElementByClassName('become').style.backgroundColor='red';
            }
+           
         //    const element = document.getElementById("all");
         //   if(element ==='1') {
         //     top:0;
@@ -43,6 +47,9 @@
             <div class="header-logo">
                 <img src="https://indrive.com/assets/images/logo/logo_10_years.svg" alt="">
             </div>
+            
+               
+           
             <div class="header-list">
                 <ul>
                     <li class="dropdown-list"><a href="">inDrive mobility</a>
@@ -80,14 +87,18 @@
             <p>En</p>
             </button>
         </div>
+        <span class="material-symbols-outlined menu-list">
+            menu
+            </span>
         <div class="driver-btn2">
            <button class="header-btn2">
-            <a href="https://nekocalc.com/px-to-rem-converter">Become a diver</a></button>
+            <a class="become" href="https://nekocalc.com/px-to-rem-converter">Become a driver</a></button>
             </div>
         </div>
         </div>
         
     </header>
+    <div class="back">
     <section id="section-1">
         <div class="box-section-main" >
             <div class="box-section1">
@@ -144,7 +155,7 @@
      
 
 </section>
-
+</div>
 
 <section id="Mobile-scanner">
     <div class="scanner-middle">

@@ -12,14 +12,44 @@
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2.2.2/dist/flickity.min.css">
   <script defer src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-   
-    <header>
+    <script>
+        
+        function myFunction() {
+          var x = document.getElementById("Mobile-scanner");
+          var y = document.getElementById("cross-icon");
+          var z=document.querySelector(".become")
+          console.log(z);
+
+          if (x.style.display === "block") {
+            x.style.display = "none";
+            document.body.style.backgroundColor = "rgba(0,0,0,0)";
+            document.getElementByClassName('become').style.backgroundColor= 'red';
+           }else {
+            x.style.display = "block";
+            document.body.style.backgroundColor = "rgba(0,0,0,0.3)";
+            document.getElementByClassName('become').style.backgroundColor='red';
+           }
+           
+        //    const element = document.getElementById("all");
+        //   if(element ==='1') {
+        //     top:0;
+
+        //   }
+           
+        }
+        
+            </script>
+    <header id="all" onscroll="myFunction()">
         <div class="navbar">
             <div class="header-logo">
                 <img src="https://indrive.com/assets/images/logo/logo_10_years.svg" alt="">
             </div>
+            
+               
+           
             <div class="header-list">
                 <ul>
                     <li class="dropdown-list"><a href="">inDrive mobility</a>
@@ -57,14 +87,18 @@
             <p>En</p>
             </button>
         </div>
+        <span class="material-symbols-outlined menu-list">
+            menu
+            </span>
         <div class="driver-btn2">
            <button class="header-btn2">
-            <a href="https://nekocalc.com/px-to-rem-converter">Become a diver</a></button>
+            <a class="become" href="https://nekocalc.com/px-to-rem-converter">Become a driver</a></button>
             </div>
         </div>
         </div>
         
     </header>
+    <div class="back">
     <section id="section-1">
         <div class="box-section-main" >
             <div class="box-section1">
@@ -121,9 +155,10 @@
      
 
 </section>
+</div>
 
-
-<section id="app">
+<section id="Mobile-scanner">
+    <div class="scanner-middle">
 <div class="app" >
     <div class="scanner-box-1">
         <div class="scanner-mobile-app-logo">
@@ -139,6 +174,10 @@
                     <img src="https://indrive.com/assets/images/icons/star-yellow.svg" alt="">
                 </span>
             </span>
+            <span href="javascript:void(0);"  
+            onclick="myFunction()" id="cross-icon" class="material-symbols-outlined">
+                close
+                </span>
         </div>
         </div>
         <h1 class="scanner-h1">Download app</h1>
@@ -154,25 +193,9 @@
         </div>
     </div>
 </div>
+</div>
 </section>
-<script>
-        
-    function myFunction() {
-      var x = document.getElementById("app");
-      if (x.style.display === "block") {
-       
-        x.style.display = "none";
-       
-        console.log("heelo")
-       
-      } else {
-        x.style.display = "block";
-        
-        console.log("heelo")
-      }
-    }
-    
-        </script>
+
 <section id="section-2">
     <div class="sec-2-head">
         <div class="sec-2-text">Challenging injustice to make the  world a fairer place for 1 billion+ people</div>
@@ -300,8 +323,9 @@
 </div>
         <h2>Mobile App</h2>
         <p>Freedom of choice and movement – one app for rides, cargo, and delivery.</p>
-        <button class="carousel-cell-btn-2"><a href="">Download the app</a></button>
-   
+        <a id="carousel-underline" href="#section-1">
+        <button  class="carousel-cell-btn-2" onclick="myFunction()">Download the app</button>
+    </a>
 
 </div>
 <div class="section-5-mobile-app-img">

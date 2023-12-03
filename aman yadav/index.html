@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+    <script src="/path/to/flickity.pkgd.min.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <section id="section-1">
+   <div class="section-head">
+    <div class="section-img"></div>
+
+<div class="section1-btn">
+<h1>Careers at <span>inDrive</span></h1>
+<button>See open roles</button>
+</div>
+   </div>
+    </section>
+    <section id="section-2">
+        <div class="sec-2-head">
+            <div class="sec-2-text">We are a global tech company with strong human values, a modern culture, competitive salaries, and professionals on our side</div>
+            <div class="sec-2-img">
+                <img src="https://indrive.com/assets/images/icons/newHomeVector.svg" alt="">
+            </div>
+        </div>
+        
+        <div class="section-2-box">
+            <div class="sec2-box1">
+                <div class="sec2-bx sec2bx1">175</div>
+                <p>mln app installs</p>
+            </div>
+            <div class="sec2-box1 sec2bx2">
+                <div class="sec2-bx">655</div>
+                <p>  cities</p>
+            </div>
+            <div class="sec2-box1 sec2bx3">
+                <div class="sec2-bx">148</div>
+                <p> countries</p> 
+            </div>
+            <div class="sec2-box1 sec2bx3">
+                <div class="sec2-bx">3000+</div>
+                <p>employees</p> 
+            </div>
+    
+        </div>
+    </section> 
+
+    <section id="section-3">
+<div class="section-3-head">
+<h1>Our <span class="span-1">services</span></h1>
+</div>
+    </section>
+   
+    <div class="carousel" data-flickity='{"autoPlay":"true"}'>
+        <div class="carousel-cell sect1-img">
+            <div class="carousel-icon">
+                <span><img src="https://careers.indrive.com/assets/images/our-services/our-services-master.svg" alt=""></span>
+            </div>
+          
+           
+            
+        </div>
+        <div class="carousel-cell sect1-img2">
+            <div class="carousel-icon">
+                <span><img src="https://careers.indrive.com/assets/images/our-services/our-services-master.svg" alt=""></span>
+            </div>
+        </div>
+        <div class="carousel-cell sect1-img3">
+           
+            <div class="carousel-icon">
+                <span><img src="https://careers.indrive.com/assets/images/our-services/our-services-master.svg" alt=""></span>
+            </div>
+                
+        </div>
+        <div class="carousel-cell sect1-img3">
+           
+            <div class="carousel-icon">
+                <span><img src="https://careers.indrive.com/assets/images/our-services/our-services-master.svg" alt=""></span>
+            </div>
+                
+        </div>
+        <div class="carousel-cell sect1-img3">
+           
+            <div class="carousel-icon">
+                <span><img src="https://careers.indrive.com/assets/images/our-services/our-services-master.svg" alt=""></span>
+            </div>
+                
+        </div>
+
+        <!-- Add more slides as needed -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://unpkg.com/flickity@2.2.2/dist/flickity.pkgd.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+           
+
+            var flkty = new Flickity('.carousel', {
+                autoplay: true,
+                // console.log("hello")
+                // Add any other Flickity options here
+            });
+        });
+    </script>
+</body>
+</html>

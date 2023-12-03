@@ -17,6 +17,8 @@ header{
     width: 100%;
     height: 14vh;
 }
+
+
 #web{
     font-size: 23px;
     padding: 2px 0;
@@ -109,6 +111,9 @@ border-radius: 29px;
     background-color:#e6e6e6;
     border-radius: 29px;
     padding: 0px 2px 0px 7px;
+}
+.menu-list{
+    display: none;
 }
 
 .header-web p{
@@ -371,6 +376,8 @@ margin: 0px 6px;
     }
 
 }
+
+
 /* section-2 */
 #section-2{
 margin-left: 2rem;
@@ -417,6 +424,9 @@ margin-top: 2.5rem;
         font-size: 1.25rem;
         margin-top: 1rem
     }
+
+
+    
     /* section-3 */
    #section-3{
     margin-left: 2rem;
@@ -467,6 +477,8 @@ max-height: 100%;
 
 
    }
+
+
    /* section-4 */
    #section-4{
     margin-left: 2rem;
@@ -563,7 +575,179 @@ font-size: 1.25rem;
     color: #7ebefc;
    
 }
+@media screen and (max-width:430px){
+    
+    /* header */
+    .header-list ul{
+        display: none !important;
+    }
+    .driver-btn2{
+        display: none;
+    }
+    .header-web .driver-btn1{
+        padding-right: 1rem !important;
+    }
+    .header-web .driver-btn1 .header-btn1{
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color:#e6e6e6;
+    padding: 5px 0px;
+    border-radius: 29px;
+    }
+    .header-web .driver-btn1 .header-btn1 span{
+        background-color:#e6e6e6;
+        border-radius: 29px;
+        padding: 0px 2px 0px 7px;
+    }
+    .menu-list{
+        display: block;
+        font-size: 31px;
+    }
 
+    /* section-1 */
+    
+    .box-section1{
+        margin-top: 29rem !important;
+    }
+    .carousel-cell h1 {
+        font-size: 28px !important;
+    margin-bottom: 24rem !important;
+    margin-left: 1rem !important;
+    }
+    .carousel-cell{
+        height: 48vh !important;
+    }
+    .sect1-img{
+height: 30vh !important;
+
+    }
+    .back{
+        background: #1b1b1c;
+        padding: 12px;
+        height: 75vh;
+        border-radius: 30px;
+    }
+    .box-section-main{
+
+    }
+    .carousel-cell-btn{
+
+    }
+    .flickity-page-dots{
+        bottom: 6rem !important;
+    }
+   
+    /* section-2 */
+
+    .sec-2-text{
+        font-size: 19px !important;
+    line-height: 24px !important;
+    }
+    .sec-2-img img {
+        height: 6rem !important;
+    }
+    .sec-2-img {
+        margin-left: 0rem !important;
+       
+    }
+
+    .section-2-box{
+margin-top: 5rem !important;
+    }
+    .section-2-box .sec2-box1{
+        width: 5rem;
+    }
+    .section-2-box .sec2-box1 .sec2-bx{
+        font-size: 2rem !IMPORTANT;
+    }
+    .section-2-box .sec2-box1 p{
+        ont-size: 11px !important;
+    }
+
+    /* section-3 */
+
+    .sec-3-head{
+        display: block !important;
+    }
+    .sec-3-head .sec-3-text{
+
+    }
+    .sec-3-head .sec-3-text h2{
+        font-size: 25px !important;
+        padding-top: 3rem
+    }
+    
+    .sec-3-head .sec-3-text p{
+        max-width: 80% !important;
+    }
+    .sec-3-head .sec-3-text a{
+
+    }
+    .sec3-img img{
+
+    }
+    #section-3{
+        margin: 0rem !important;
+        margin-top: 5rem !important;
+    }
+/* section-4 */
+.sec-4-btn{
+    margin: 77px 0px !important;
+    margin-left: 32px !important;
+}
+
+.sec-4-btn button{
+    padding: 4px 4px !important;
+}
+
+.sec-4-btn h2{
+    font-size: 26px !important;
+    line-height: 3rem !IMPORTANT;
+}
+.sec-4-img img{
+    height: 24vh;
+}
+    .sec-4-box{
+flex-wrap: wrap;
+    }
+    .sec-4-box .sec4-box1{
+        width: 100% !important;
+    }
+
+    /* section-5 */
+    #section-5{
+        margin-left: 0rem !important;
+        margin-right: 0rem !important;
+    }
+    .section-5-head h1{
+        font-size: 27px !important;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .section5-box{
+flex-wrap: wrap;
+
+    }
+    .section5-box .section5-box1{
+        width: 100% !important;
+    }
+    .section-5-bottom .section-5-mobile-app{
+        flex-wrap: wrap;
+        padding-bottom: 1rem;
+    }
+    .section-5-bottom .section-5-mobile-app .section-5-mobile-app-img img{
+margin-top: 0rem  !important;
+    }
+    .section-5-bottom .section-5-mobile-app .section-5-mobile-app-text h2{
+        font-size: 30px !important;
+    }
+    .section-5-bottom .section-5-mobile-app .section-5-mobile-app-text p{
+        font-size: 14px !important;
+    line-height: 17px !important;
+    margin-top: 1rem !important;
+    }
+}
 /* section-5 */
 #section-5{
     margin-top: 5rem;
@@ -964,11 +1148,12 @@ max-width: 100%;
 /* footer */
 footer{
     background-color: #1b1b1c;
-    margin-top: 5rem;
+    margin-inline: auto;
     border-top-right-radius: 48px;
     border-top-left-radius: 48px;
-    height: auto;
+    width: 90%;
     padding-bottom: 2rem;
+    margin-top: 7rem;
 }
 .head-footer{
     margin-left:2rem ;
