@@ -26,20 +26,29 @@
           if (x.style.display === "block") {
             x.style.display = "none";
             document.body.style.backgroundColor = "rgba(0,0,0,0)";
-            document.getElementByClassName('become').style.backgroundColor= 'red';
+           
            }else {
             x.style.display = "block";
             document.body.style.backgroundColor = "rgba(0,0,0,0.3)";
-            document.getElementByClassName('become').style.backgroundColor='red';
+           
            }
            
-        //    const element = document.getElementById("all");
-        //   if(element ==='1') {
-        //     top:0;
-
-        //   }
+       
            
         }
+        
+        function show() {
+        var m = document.getElementById("menu-link");
+              if (m.style.display === "block") {
+                m.style.display = "none";
+                console.log("hello")
+               
+              } else {
+                m.style.display = "block";
+                 console.log("hello")
+               
+              }
+            }
         
             </script>
     <header id="all" onscroll="myFunction()">
@@ -51,7 +60,7 @@
                
            
             <div class="header-list">
-                <ul>
+                <ul id="menu-link">
                     <li class="dropdown-list"><a href="">inDrive mobility</a>
                         <div class="dropdown">
                             <p><a class="dropdown-font-size" href="">City ride</a></p>
@@ -87,7 +96,7 @@
             <p>En</p>
             </button>
         </div>
-        <span class="material-symbols-outlined menu-list">
+        <span href="javascript:void(0);"  onclick="show()" id="menu-bar" class="material-symbols-outlined menu-list">
             menu
             </span>
         <div class="driver-btn2">

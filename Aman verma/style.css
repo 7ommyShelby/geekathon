@@ -8,6 +8,7 @@
 body{
     background: #f7f8f7;
 }
+
 header{
    /* top: 0;
    position: sticky;
@@ -40,7 +41,7 @@ display: block;
 z-index: 2;
 }
 .dropdown{
-display: none;
+display: ;
 position: absolute;
 height: auto;
 width: 14%;
@@ -152,6 +153,362 @@ font-size: 16px;
     background-color: #a7e92f;
 }
 
+@media screen and (max-width:500px){
+    
+    /* header */
+    .dropdown-list{
+        
+    }
+    .dropdown-list:hover .dropdown{
+    display: block;
+    z-index: 2;
+    }
+    .dropdown{
+        display: none;
+    margin: -7px 151px;
+    height: auto;
+    width: 58% !important;
+    position: relative;
+    background-color: white;
+    top: 4rem;
+    border-radius: 14px;
+    
+    }
+    .dropdown-list:hover .dropdown{
+        display: inline;
+        }
+        
+    .dropdown p{
+        padding: 10px;
+        
+    }
+    .dropdown a{
+        font-size: 15px !important;
+    }
+    .dropdown a:hover{
+        background-color: gainsboro;
+    }
+    .dropdown-font-size{
+    
+    }
+    .header-list{
+
+    }
+    .header-list ul{
+        
+    }
+    .header-list ul li{
+        padding: 9px 10px!important;
+    }
+    .header-list ul li a{
+        
+    }
+    .dropdown{
+
+    }
+    .dropdown p{
+        
+    }
+    .dropdown p a{ 
+        
+    }
+    #menu-link{
+        display: none;
+        position:absolute;
+        z-index: 2;
+        left: 0;
+        width: 100%;
+        background-color: black;
+        height: 100vh;
+        margin-top: 40px;
+        }
+    .driver-btn2{
+        display: none;
+    }
+    .header .navbar{
+        position: relative;
+    }
+    .header-web .driver-btn1{
+        padding-right: 1rem !important;
+    }
+    .header-web .driver-btn1 .header-btn1{
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color:#e6e6e6;
+    padding: 5px 0px;
+    border-radius: 29px;
+    }
+    .header-web .driver-btn1 .header-btn1 span{
+        background-color:#e6e6e6;
+        border-radius: 29px;
+        padding: 0px 2px 0px 7px;
+    }
+    .menu-list{
+        display: block;
+        font-size: 31px;
+    }
+
+    /* section-1 */
+    
+    .box-section1{
+        margin-top: 29rem !important;
+    }
+    .carousel-cell h1 {
+        font-size: 28px !important;
+    margin-bottom: 24rem !important;
+    margin-left: 1rem !important;
+    }
+    .carousel-cell{
+        height: 48vh !important;
+    }
+    .sect1-img{
+
+
+    }
+    .flickity-page-dots{
+        bottom: -2rem !important;
+        background-color: #a7e92f;
+    }
+    .back{
+        background: #1b1b1c;
+        padding: 12px;
+        height: 75vh;
+        border-radius: 30px;
+    }
+    .box-section-main{
+
+    }
+    .carousel-cell-btn{
+        max-width: 100% !important;
+        margin: auto;
+        /* bottom: 0; */
+        left: 0;
+        margin-right: 41rem !important;
+        padding: initial;
+        padding: auto;
+    }
+    .flickity-page-dots{
+        bottom: 6rem !important;
+    }
+   
+    /* section-2 */
+
+    .sec-2-text{
+        font-size: 19px !important;
+    line-height: 24px !important;
+    }
+    .sec-2-img img {
+        height: 6rem !important;
+    }
+    .sec-2-img {
+        margin-left: 0rem !important;
+       
+    }
+
+    .section-2-box{
+margin-top: 5rem !important;
+    }
+    .section-2-box .sec2-box1{
+        width: 5rem;
+    }
+    .section-2-box .sec2-box1 .sec2-bx{
+        font-size: 2rem !IMPORTANT;
+    }
+    .section-2-box .sec2-box1 p{
+        ont-size: 11px !important;
+    }
+
+    /* section-3 */
+
+    .sec-3-head{
+        display: block !important;
+    }
+    .sec-3-head .sec-3-text{
+
+    }
+    .sec-3-head .sec-3-text h2{
+        font-size: 25px !important;
+        padding-top: 3rem
+    }
+    
+    .sec-3-head .sec-3-text p{
+        max-width: 80% !important;
+    }
+    .sec-3-head .sec-3-text a{
+
+    }
+    .sec3-img img{
+
+    }
+    #section-3{
+        margin: 0rem !important;
+        margin-top: 5rem !important;
+    }
+/* section-4 */
+.sec-4-btn{
+    margin: 88px 0px !important;
+    margin-left: 32px !important;
+}
+
+.sec-4-btn button{
+    padding: 4px 4px !important;
+}
+
+.sec-4-btn h2{
+    font-size: 26px !important;
+    line-height: 3rem !IMPORTANT;
+}
+.sec-4-img img{
+    height: 24vh;
+}
+    .sec-4-box{
+flex-wrap: wrap;
+    }
+    .sec-4-box .sec4-box1{
+        width: 100% !important;
+    }
+
+    /* section-5 */
+    #section-5{
+        margin-left: 0rem !important;
+        margin-right: 0rem !important;
+    }
+    .section-5-head h1{
+        font-size: 27px !important;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .section5-box{
+flex-wrap: wrap;
+
+    }
+    .section5-box .section5-box1{
+        width: 100% !important;
+    }
+    .section-5-bottom .section-5-mobile-app{
+        flex-wrap: wrap;
+        padding-bottom: 1rem;
+    }
+    .section-5-bottom .section-5-mobile-app .section-5-mobile-app-img img{
+margin-top: 0rem  !important;
+    }
+    .section-5-bottom .section-5-mobile-app .section-5-mobile-app-text h2{
+        font-size: 30px !important;
+    }
+    .section-5-bottom .section-5-mobile-app .section-5-mobile-app-text p{
+        font-size: 14px !important;
+    line-height: 17px !important;
+    margin-top: 1rem !important;
+    }
+
+
+    .sec-6-box{
+        flex-wrap: wrap;
+    }
+    .sec-6-box .sec6-box1{
+      flex-wrap: wrap;
+    }
+    .sec-6-img img{
+        height: 26vh;
+    }
+    #section-4{
+        margin-left: 0rem !important;
+        margin-right: 0rem !important;
+    }
+    #section-6{
+        margin-left: 0rem !important;
+        margin-right: 0rem !important;
+    }
+    .sec-6-btn{
+        margin-top: 97px !important;
+    }
+    .sec-6-btn button{
+        padding: 4px 4px !important;
+    }
+    .sec-6-btn h2{
+        font-size: 26px !important;
+        line-height: 3rem !IMPORTANT;
+    }
+    .sec-6-box p{
+        margin-bottom: 1rem;
+    }
+    
+.sec-8-img img{
+    height: 26vh;
+}
+.sec-8-btn button{
+    padding: 4px 4px !important;
+}
+.sec-8-btn{
+    margin-top: 97px !important;
+}
+.sec-8-btn h2{
+    font-size: 15px !important;
+    line-height: 2rem !IMPORTANT;
+}
+.sec-8-btn button a,.sec-6-btn button a,.sec-4-btn button a{
+font-size: 0.8rem !important;
+}
+.sec-8-box{
+    flex-wrap: wrap;
+}
+.sec-8-box .sec8-box1{
+    width: 100% !important;
+}
+.section-9-head{
+    flex-wrap: wrap;
+}
+.section-8-btn{
+    width: 100% !important;
+}
+.section-9-heading{
+
+}
+.section-9-heading h1{
+    font-size: 20px !important;
+    line-height: 30px !important;
+}
+.section-9-img{
+    margin-left: 0rem !important;
+    margin-top: 4rem !important;
+}
+.section-9-heading button{
+    width: 100%;
+}
+
+
+/* footer */
+
+.footer-1{
+    display: inline !important;
+}
+.footer-block-2{
+    display: inline !important;
+}
+.footer-list-1{
+    padding: 20px 0px !important;
+}
+.footer-list-1 div h2{
+    margin-bottom: 0rem !important;
+}
+.footer-list-1 div p{
+    padding: 13px 0px !important;
+}
+.footer-block-1{
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.footer-2 .footer-box-2{
+flex-wrap: wrap;
+}
+.footer2-block-left{
+width: 100% !important;
+}
+
+}
+    /* end */
 
 /* section 1 */
 
@@ -189,11 +546,7 @@ font-size: 16px;
     position: relative;
  }
 
-
-
-
-
-  .carousel-cell {
+.carousel-cell {
     width: 100%; /* Set the width of each slide */
     margin-right: 10px; /* Optional: Adjust the margin between slides */
     background-color: #ececec; /* Optional: Set background color */
@@ -575,179 +928,7 @@ font-size: 1.25rem;
     color: #7ebefc;
    
 }
-@media screen and (max-width:430px){
-    
-    /* header */
-    .header-list ul{
-        display: none !important;
-    }
-    .driver-btn2{
-        display: none;
-    }
-    .header-web .driver-btn1{
-        padding-right: 1rem !important;
-    }
-    .header-web .driver-btn1 .header-btn1{
-    display: flex;
-    align-items: center;
-    border: none;
-    background-color:#e6e6e6;
-    padding: 5px 0px;
-    border-radius: 29px;
-    }
-    .header-web .driver-btn1 .header-btn1 span{
-        background-color:#e6e6e6;
-        border-radius: 29px;
-        padding: 0px 2px 0px 7px;
-    }
-    .menu-list{
-        display: block;
-        font-size: 31px;
-    }
 
-    /* section-1 */
-    
-    .box-section1{
-        margin-top: 29rem !important;
-    }
-    .carousel-cell h1 {
-        font-size: 28px !important;
-    margin-bottom: 24rem !important;
-    margin-left: 1rem !important;
-    }
-    .carousel-cell{
-        height: 48vh !important;
-    }
-    .sect1-img{
-height: 30vh !important;
-
-    }
-    .back{
-        background: #1b1b1c;
-        padding: 12px;
-        height: 75vh;
-        border-radius: 30px;
-    }
-    .box-section-main{
-
-    }
-    .carousel-cell-btn{
-
-    }
-    .flickity-page-dots{
-        bottom: 6rem !important;
-    }
-   
-    /* section-2 */
-
-    .sec-2-text{
-        font-size: 19px !important;
-    line-height: 24px !important;
-    }
-    .sec-2-img img {
-        height: 6rem !important;
-    }
-    .sec-2-img {
-        margin-left: 0rem !important;
-       
-    }
-
-    .section-2-box{
-margin-top: 5rem !important;
-    }
-    .section-2-box .sec2-box1{
-        width: 5rem;
-    }
-    .section-2-box .sec2-box1 .sec2-bx{
-        font-size: 2rem !IMPORTANT;
-    }
-    .section-2-box .sec2-box1 p{
-        ont-size: 11px !important;
-    }
-
-    /* section-3 */
-
-    .sec-3-head{
-        display: block !important;
-    }
-    .sec-3-head .sec-3-text{
-
-    }
-    .sec-3-head .sec-3-text h2{
-        font-size: 25px !important;
-        padding-top: 3rem
-    }
-    
-    .sec-3-head .sec-3-text p{
-        max-width: 80% !important;
-    }
-    .sec-3-head .sec-3-text a{
-
-    }
-    .sec3-img img{
-
-    }
-    #section-3{
-        margin: 0rem !important;
-        margin-top: 5rem !important;
-    }
-/* section-4 */
-.sec-4-btn{
-    margin: 77px 0px !important;
-    margin-left: 32px !important;
-}
-
-.sec-4-btn button{
-    padding: 4px 4px !important;
-}
-
-.sec-4-btn h2{
-    font-size: 26px !important;
-    line-height: 3rem !IMPORTANT;
-}
-.sec-4-img img{
-    height: 24vh;
-}
-    .sec-4-box{
-flex-wrap: wrap;
-    }
-    .sec-4-box .sec4-box1{
-        width: 100% !important;
-    }
-
-    /* section-5 */
-    #section-5{
-        margin-left: 0rem !important;
-        margin-right: 0rem !important;
-    }
-    .section-5-head h1{
-        font-size: 27px !important;
-        margin-left: 2rem;
-        margin-right: 2rem;
-    }
-    .section5-box{
-flex-wrap: wrap;
-
-    }
-    .section5-box .section5-box1{
-        width: 100% !important;
-    }
-    .section-5-bottom .section-5-mobile-app{
-        flex-wrap: wrap;
-        padding-bottom: 1rem;
-    }
-    .section-5-bottom .section-5-mobile-app .section-5-mobile-app-img img{
-margin-top: 0rem  !important;
-    }
-    .section-5-bottom .section-5-mobile-app .section-5-mobile-app-text h2{
-        font-size: 30px !important;
-    }
-    .section-5-bottom .section-5-mobile-app .section-5-mobile-app-text p{
-        font-size: 14px !important;
-    line-height: 17px !important;
-    margin-top: 1rem !important;
-    }
-}
 /* section-5 */
 #section-5{
     margin-top: 5rem;
