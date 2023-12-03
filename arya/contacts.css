@@ -130,7 +130,7 @@ main {
 }
 
 .image {
-    background-image: url(./img/in_local_cover.webp);
+    background-image: url(./img/contacts_cover.webp);
     background-position: center;
     height: 70vh;
     width: 95%;
@@ -160,274 +160,191 @@ main {
 }
 
 .section1 {
+    margin-top: 8rem;
     display: flex;
-    align-items: flex-start;
     justify-content: space-between;
     width: 90%;
-    margin-top: 4rem;
 }
 
-.one {
-    width: 60%;
-}
-
-.one h1 {
-    font-size: 4rem;
-    font-weight: 700;
-}
-
-.two {
-    width: 35%;
-}
-
-.two p {
+.section1 h2 {
+    font-size: 3.5rem;
     font-weight: 400;
-    font-size: 20px;
+    margin-bottom: 4rem;
+}
+
+.part1 {
+    text-align: left;
+}
+
+.part1 p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.part1 button {
+    display: flex;
+    width: 21rem;
+    height: 5.5rem;
+    border: none;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    background-color: #a7e92f;
 }
 
 .section2 {
-    width: 95%;
-    margin-top: 8rem;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 90%;
 }
 
-.text {
-    background-color: black;
-    border-radius: 3rem;
-    padding: 4rem 2rem;
+.team {
+    display: flex;
+    padding: relative;
 }
 
-.text span {
-    color: #a7e92f;
-    font-size: 5rem;
-    font-weight: 600;
+.team span {
+    width: 12%;
+    height: 1rem;
+    background-color: #a7e92f;
+    margin-top: 3rem;
+
 }
 
-.text h1 {
-    color: white;
-    font-size: 5rem;
-    font-weight: 600;
+.team h2 {
+    font-size: 3.5rem;
+    font-weight: 400;
+    position: absolute;
 }
 
 .section3 {
     margin-top: 6rem;
     display: flex;
-    flex-direction: column;
-    justify-content: left;
+    justify-content: space-between;
     width: 90%;
 }
 
-.ques {
-    display: flex;
-    padding: relative;
-}
-
-.ques span {
-    width: 35%;
-    height: 1rem;
-    background-color: #a7e92f;
-    margin-top: 3rem;
-
-}
-
-.ques h2 {
-    font-size: 3.5rem;
-    font-weight: 500;
-    position: absolute;
-}
-
-.rules {
+.card {
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    width: 50%;
-    align-items: flex-start;
+    width: 29rem;
+    height: 18rem;
+    background-color: white;
+    border: none;
+    border-radius: 2rem;
+    padding: 2rem;
+    text-align: left;
+    justify-content: space-evenly;
 }
 
-.ins {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.instruction {
-    margin: 1rem;
-}
-
-.ins span {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    border: 2px solid black;
-    height: 2rem;
-    width: 2rem;
-    margin-right: 1rem;
-}
-
-.instruction h4 {
-    font-weight: 700;
+.card p {
     font-size: 1.25rem;
-}
-
-.instruction p {
     font-weight: 400;
-    font-size: 1.25rem;
-}
-.side2{
-    display: flex;
-    align-items: center;
 }
 
-.side2 img {
-    width: 100%;
-    height: 60%;
+.card a {
+    text-decoration: none;
 }
 
 .section4 {
-    margin-top: 4rem;
+    margin-top: 10rem;
     display: flex;
-    flex-direction: row;
-    width: 90%;
-    justify-content: space-around;
-    align-items: center;
-}
-.ins:hover{
-    span{
-        border:none;
-        background-color: #a7e92f;
-
-    }
-}
-.ins:not(:hover){
-    opacity: .5;
-}
-
-.section5 {
-    margin-top: 4rem;
-    display: flex;
-    width: 95%;
     flex-direction: column;
-    gap: 2rem;
+    justify-content: left;
+    width: 90%;
 }
 
-.pitch {
+.office {
     display: flex;
-    align-items: flex-start;
-    width: 100%;
-    height: 16vh;
+    flex-direction: column;
 }
 
-.pitch h2 {
+.office span {
+    width: 8%;
+    height: 1rem;
+    background-color: #a7e92f;
+    margin-top: 3rem;
+
+}
+
+.office h2 {
     font-size: 3.5rem;
-    font-weight: 600;
+    font-weight: 400;
     position: absolute;
 }
 
-.pitch span {
-    width: 12.5%;
-    background-color: #a7e92f;
-    height: 1rem;
-    top: 3rem;
-    position: relative;
-}
-
-.reason {
-    display: flex;
-    justify-content: space-evenly;
-
-}
-
-.box p {
-    font-size: 1.5rem;
-    font-weight: 700;
+.office p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 5rem;
     text-wrap: wrap;
 }
 
-.box {
-    width: 30%;
-    height: 13rem;
-    background-color: white;
-    justify-content: center;
-    border: none;
+.view {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.photo {
+    display: flex;
+
+}
+
+.photo img {
     border-radius: 2rem;
-    padding: 2rem;
+    border: none;
 }
 
-.section6 {
-    margin-top: 8rem;
-    background-color: black;
-    width: 95%;
-    height: 22rem;
+.section5 {
+    background-color: #272c33;
+    width: 90%;
+    border: none;
     border-radius: 3rem;
-    display: flex;
-    align-items: end;
-}
-
-.app {
-    display: flex;
-    flex-direction: column;
-
-    justify-content: start;
+    margin-top: 8rem;
     padding: 2rem;
 }
 
-.app h2 {
+.section5 h1 {
     font-size: 4rem;
     font-weight: 500;
     color: white;
-    margin-bottom: 1rem;
 }
 
-.app span {
-    color: #a7e92f;
+.section5 span {
+    color: #a7e92f
 }
 
-.app a {
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    background: #a7e92f;
-    height: 5rem;
-    width: 22rem;
-    align-items: center;
-    border: none;
-    border-radius: 1rem;
+.section5 p {
     font-size: 1.25rem;
     font-weight: 400;
+    color: white;
+    margin-top: 2.5rem 2rem;
 }
 
-.qr {
-    height: 25rem;
-    width: 24rem;
-    background-color: white;
-    position: relative;
-    left: 17rem;
-    transform: translateY(1.5rem);
-    border: none;
-    border-radius: 2rem;
+.section5 a {
     display: flex;
-    flex-direction: column;
+    width: 13.75rem;
+    height: 3.5rem;
+    border: none;
+    border-radius: 1rem;
     align-items: center;
-    padding: 2rem;
-}
-
-.qr p {
-    text-align: center;
-    font-size: 1rem;
+    justify-content: center;
+    font-size: 1.25rem;
     font-weight: 400;
+    text-decoration: none;
+    background-color: #a7e92f;
+    margin-top: 2rem;
 }
 
-.qr img {
-    margin-top: 3rem;
-    height: 12.5rem;
-    width: 12.5rem;
-}
-
-
-/*FOOTER*/
-
-
+/*Footer*/
 footer{
     background-color: #1b1b1c;
     margin-inline: auto;
