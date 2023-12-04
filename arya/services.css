@@ -206,6 +206,9 @@ main {
     color: white;
     font-size: 5rem;
     font-weight: 600;
+    text-align: left;
+    line-height: 70px;
+    letter-spacing: 3px;
 }
 
 .section3 {
