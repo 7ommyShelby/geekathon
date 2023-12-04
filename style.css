@@ -21,6 +21,9 @@ header{
     padding: 2px 0;
     
 }
+#EN{
+    border-radius: 50%;
+}
 header .navbar{
 display: flex;
 justify-content: space-between;
@@ -171,6 +174,7 @@ cursor: pointer;
 font-size: 1rem;
 padding: 0px 12px 0px 5px;
 background-color:#e6e6e6;
+
 
 }
 .header-web .driver-btn2 .header-btn2 a{
@@ -354,7 +358,27 @@ font-size: 16px;
 }
 .sect1-img{
     background-image: linear-gradient(to right, rgba(0,0,0,0.4) 50%,transparent ),url('https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Fcovers%2Fmobility.jpeg&w=3840&q=100');
-    width: 100%;
+    width: 10
+    /style.css
+    ￼
+    Top
+    File metadata and controls
+    ￼
+    Code
+    ￼
+    Blame
+    3001 lines (2626 loc) · 53.8 KB
+    ￼
+    Code 55% faster with GitHub Copilot
+    Raw
+    ￼
+    ￼
+    ￼
+    ￼
+    ￼
+    1
+    23456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475270827092710271127122713271427152716271727182719272027212722272327242725272627272728272927302731273227332734273527362737273827392740274127422743274427452746274727482749275027512752275327542755275627572758275927602761276227632764276527662767276827692770277127722773277427752776277727782779278027812782278327842785278627872788278927902791279227932794279527962797279827992800280128022803280428052806280728082809281028112812281328142815281628172818281928202821282228232824282528262827282828292830283128322833283428352836283728382839284028412842284328442845284628472848284928502851285228532854285528562857285828592860286128622863286428652866286728682869287028712872287328742875287628772878287928802881288228832884288528862887288828892890289128922893289428952896289728982899290029012902290329042905290629072908290929102911291229132914291529162917291829192920292129222923292429252926292729282929293029312932293329342935293629372938293929402941294229432944294529462947294829492950295129522953295429552956295729582959296029612962296329642965296629672968296929702971297229732974297529762977297829792980298129822983298429852986298729882989299029912992299329942995299629972998299930003001
+    0%;
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -657,7 +681,7 @@ position: relative;
 .sec-4-btn{
     position: absolute;
     top: 0px;
-    margin: 17rem 2rem;
+    margin: 15rem 2rem;
 }
 .sec-4-btn button{
     border: none;
@@ -881,7 +905,7 @@ position: relative;
 .sec-6-btn{
     position: absolute;
     top: 0px;
-    margin: 17rem 2rem;
+    margin: 15rem 2rem;
 }
 .sec-6-btn button{
     border: none;
@@ -988,7 +1012,7 @@ position: relative;
 .sec-8-btn{
     position: absolute;
     top: 0px;
-    margin: 17rem 2rem;
+    margin: 15rem 2rem;
 }
 .sec-8-btn button{
     border: none;
@@ -2865,9 +2889,9 @@ font-size: 12px;
 
 }
  
-@media screen and (min-width:1024px) and (max-width:1440px){
+/* @media screen and (min-width:1024px) and (max-width:1440px){
     /* header */
-    header .navbar .header-logo img {
+    /* header .navbar .header-logo img {
      width: 6.75rem;
      height: 4.375rem;
     }
@@ -2880,32 +2904,10 @@ font-size: 12px;
     .dropdown-language{
      
         border-radius:10px ;
-    }
+    } */
     /* header-end */
  
-    .sec-2-img img{
-     
-    }
-    .sec-2-img{
-     margin-left: 22rem;
-     margin-top: 2rem;
-    }
-    .section-9-img{
-     margin-left: 22rem;
-    }
-    .sec-4-btn{
-     top: -77px;
-    }
-    #Mobile-scanner {
-     margin: -37rem 37rem;
-    }
-    .sec-6-btn{
-     top: -5rem;
-    }
-    .sec-8-btn{
-     top: -5rem;
-    }
- }
+    /* s */ */
  
 
 /* Appp */
