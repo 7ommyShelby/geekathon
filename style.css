@@ -115,6 +115,13 @@ header .navbar .header-logo img{
     color: black;
     transition: ease-in 0.2s;
  }
+.header-list ul li p{
+    text-decoration: none;
+
+    font-size: 1rem;
+    color: #7c8698;
+    font-weight: 400;
+}
 .header-list ul li a{
     text-decoration: none;
 
@@ -193,6 +200,7 @@ font-size: 16px;
 }
 
 /* scanner */
+
 .scanner-mobile-app-logo{
     display: flex;
    
@@ -346,18 +354,21 @@ font-size: 16px;
     width: 100%;
     height: 600px;
     background-size: cover;
+    background-position: center;
 }
 .sect1-img2{
     background-image: linear-gradient(to right, rgba(0,0,0,0.4) 50%,transparent ),url('https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Fcovers%2Fservices.jpeg&w=3840&q=100');
     width: 100%;
     height: 600px;
     background-size: cover;
+    background-position: center;
 }
 .sect1-img3{
     background-image: linear-gradient(to right, rgba(0,0,0,0.4) 50%,transparent ),url('https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Fcovers%2Fnew_home_cover.jpg&w=1920&q=100');
     width: 100%;
     height: 600px;
     background-size: cover;
+    background-position: center;
 }
 .carousel-cell img{
     width: 100%;
@@ -466,6 +477,7 @@ margin: 0px 6px;
     border-radius: 64px;
    
 }
+
 .inner-btn-1{
     height: 100%;
     animation-name:button;
@@ -1165,6 +1177,10 @@ justify-content: space-between;
 .footer-list-1 div p a{
     text-decoration: none;
     color: #fff;
+    transition: 0.2s ease;
+}
+.footer-list-1 div p a:hover{
+    color: #586069;
 }
 .driver-btn3{
     padding-right: 2rem;
@@ -1236,7 +1252,7 @@ display: flex;
 }
 #copyright{
     color: #767677!important;
-    font-size: 14px;
+    font-size: 11px;
     margin-bottom: 2rem;
 }
 .footer2-block-right{
@@ -1258,9 +1274,10 @@ margin-top: 2rem;
 }
 .footer-3 ul li a{
     text-decoration: none;
-    font-size: 15px;
+    font-size: 11px;
     color: white;
 }
+
 .footer-3  ul button{
     width: 56px;
     height: 56px;
@@ -1295,7 +1312,7 @@ margin-top: 2rem;
     overflow: hidden;
     text-align: center;
     text-overflow: ellipsis;
-    display: -webkit-box;
+    
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
      max-width: 100%;
@@ -1314,29 +1331,25 @@ color: black;
     .dropdown-language{
        width: 29% !important;
    }
-   .dropdown-list{
-       
-   }
+ 
    .dropdown-list:hover .dropdown{
-   display: block;
-   z-index: 2;
+    display: flex;
+    flex-direction: column;
    }
    .dropdown{
        display: none;
-   margin: -7px 151px;
+
+  
    height: auto;
    width: 58% !important;
    position: relative;
    background-color: white;
-   top: 4rem;
-   border-radius: 14px;
+   top: 0;
+   margin-left:0 ;
    
+   border-radius: 2px;
    }
-   .dropdown-list:hover .dropdown{
-       display: inline;
-       }
-       
-   .dropdown p{
+  .dropdown p{
        padding: 10px;
        
    }
@@ -1356,7 +1369,7 @@ color: black;
        
    }
    .header-list ul li{
-       padding: 9px 10px!important;
+       padding: 10px 10px!important;
    }
    .header-list ul li a{
        
@@ -1376,8 +1389,9 @@ color: black;
        z-index: 2;
        left: 0;
        width: 100%;
-       background-color: black;
-       height: 100vh;
+       background-color:#1b1b1c;
+       height: 58vh;
+       padding-top: 26px;
        margin-top: 40px;
        }
    .driver-btn2{
@@ -1387,7 +1401,7 @@ color: black;
        position: relative;
    }
    .header-web .driver-btn1{
-       padding-right: 1rem !important;
+       padding-left: 4rem !important;
    }
    .header-web .driver-btn1 .header-btn1{
    display: flex;
@@ -1407,9 +1421,33 @@ color: black;
        font-size: 31px;
    }
 
-
+/* header-end */
 
    /*  */
+
+   .sect1-img{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.4) 50%,transparent ),url('https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Fcovers%2Fmobility_mobile.jpeg&w=3840&q=100');
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+.sect1-img2{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.4) 50%,transparent ),url('	https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Fcovers%2Fservices_mobile.jpeg&w=3840&q=100');
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+.sect1-img3{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.4) 50%,transparent ),url('	https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Fcovers%2Fnew_home_cover.jpg&w=3840&q=100');
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+
+.inner-btn-2,.inner-btn-1,.inner-btn-3{
+background-color: #a7e92f;
+}
+
    .hidden-button{
        display: block;
            }
@@ -1823,29 +1861,23 @@ width: 100% !important;
      .dropdown-language{
        width: 29% !important;
    }
-   .dropdown-list{
-       
-   }
    .dropdown-list:hover .dropdown{
-   display: block;
-   z-index: 2;
+    display: flex;
+    flex-direction: column;
    }
    .dropdown{
        display: none;
-   margin: -7px 151px;
+
+   /* margin: -7px 151px; */
    height: auto;
    width: 58% !important;
    position: relative;
    background-color: white;
-   top: 4rem;
-   border-radius: 14px;
-   
+   top: 0;
+   margin-left:0;
+   border-radius: 2px;
    }
-   .dropdown-list:hover .dropdown{
-       display: inline;
-       }
-       
-   .dropdown p{
+  .dropdown p{
        padding: 10px;
        
    }
@@ -1865,7 +1897,7 @@ width: 100% !important;
        
    }
    .header-list ul li{
-       padding: 9px 10px!important;
+       padding: 10px 10px!important;
    }
    .header-list ul li a{
        
@@ -1885,8 +1917,9 @@ width: 100% !important;
        z-index: 2;
        left: 0;
        width: 100%;
-       background-color: black;
-       height: 100vh;
+       background-color:#1b1b1c;
+       height: 60vh;
+       padding-top: 26px;
        margin-top: 40px;
        }
    .driver-btn2{
@@ -1896,7 +1929,7 @@ width: 100% !important;
        position: relative;
    }
    .header-web .driver-btn1{
-       padding-right: 1rem !important;
+       padding-left: 7rem !important;
    }
    .header-web .driver-btn1 .header-btn1{
    display: flex;
@@ -2056,7 +2089,40 @@ width: 100% !important;
  
 
    /* section-1 */
+
+   .sect1-img{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.4) 50%,transparent ),url('https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Fcovers%2Fmobility_mobile.jpeg&w=3840&q=100');
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+.sect1-img2{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.4) 50%,transparent ),url('	https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Fcovers%2Fservices_mobile.jpeg&w=3840&q=100');
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+.sect1-img3{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.4) 50%,transparent ),url('	https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Fcovers%2Fnew_home_cover.jpg&w=3840&q=100');
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+
+.inner-btn-2,.inner-btn-1,.inner-btn-3{
+background-color: #a7e92f;
+}
+
+.carousel-cell-btn{
+    max-width: 100% !important;
+    margin: auto;
+    /* bottom: 0; */
+    left: 0;
+    margin-right: 41rem !important;
+    padding: initial;
+    padding: auto;
    
+}
 
    .back{
        background: #1b1b1c;
@@ -2067,15 +2133,7 @@ width: 100% !important;
    .box-section-main{
 
    }
-   .carousel-cell-btn{
-       max-width: 100% !important;
-       margin: auto;
-       /* bottom: 0; */
-       left: 0;
-       margin-right: 41rem !important;
-       padding: initial;
-       padding: auto;
-   }
+  
    
   
    /* section-2 */
