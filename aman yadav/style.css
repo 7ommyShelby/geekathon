@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: #f7f8f7;
+}
 #section-1{
 
 }
@@ -127,18 +130,42 @@ padding-left: 5rem;
             transform: translateY(-100%);
             z-index: -1;
         }
-        .carousel{
-            overflow: hidden;
-            width: 50%;
-            margin: auto;
-            
-        }
-        .carousel-cell{
-            width: 100%;
-            height: 20vh;
-            background-color: rgb(216, 176, 176);
-            height: 10vh;
-        }
+        .carousel {
+            border: none !important;
+            overflow-x: hidden;
+          }
+          .flickity-slider{
+            transform: translateX(0%) !important;
+          }
+          
+          .carousel-cell {
+            width: 22%;
+    height: 169px;
+    border-radius: 40px;
+            margin-right: 10px;
+            background: #8C8;
+            counter-increment: gallery-cell;
+            padding: 18px 13px;
+            margin-right: 2rem;
+            margin-right: 2rem;
+          }
+          
+          .carousel-cell.is-selected {
+            background: #ED2;
+          }
+          .flickity-viewport{
+            height: 60px !important;
+          }
+          /* cell number */
+          .carousel-cell:before {
+            display: block;
+            text-align: center;
+          
+            line-height: 200px;
+            font-size: 80px;
+            color: white;
+          }
+          
 
         .carousel-icon{
         border-radius: 100%;
@@ -147,7 +174,141 @@ padding-left: 5rem;
     width: 64px;
     min-width: 64px;
     margin: 0 0 16px;
+   
+        }
+        .carousel-icon span img{
+            padding: 13px 15px;
+        }
+        .carousel-icon p{
+            padding-top: 34px;
+            padding-left: 14px;
+            font-size: 17px;
+        }
+       .flickity-prev-next-button{
+        font-size: 30px !important;
+       }
+
+       /* section-4 */
+#section-4{
+margin-left: 2rem;
+margin-right: 2rem;
+margin-top: 7rem;
+}
+.section-4-head{
+
+}
+.section-4-head-h1{
+font-size: 56px;
+}
+.section-4-head-p{
+    margin-top: 1rem;
+    font-size: 20px;
+}
+.section-box{
+   width: 100%;
+   margin-top: 1rem;
+}
+/* block - 1 */
+.section-box  .block-1{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+}
+.section-box .block-1 .box1{
+    background-color: #fff;
+    height: 15rem;
+    border-radius: 29px;
+    padding: 15px;
+    width: 60%;
+    width: 60%;
+   
+}
+.main-box h1{
+    margin-top: 1rem;
+    color: rgb(64, 135, 225);
+}
+#location-4{
     display: flex;
-    justify-content: center;
+    margin-top: 1rem;
+}
+.main-box p{
+    margin-top: 1rem;
+    
+}
+.main-box ul{
+    display: flex;
+    margin-top: 1rem;
+ }
+ .main-box ul li{
+   list-style: none;
+   padding: 0px 5px;
+ }
+ .main-box li a{
+    text-decoration: none;
+    color: gray;
+ }
+
+
+.section-box .block-1 .box2{
+    background-color: #fff;
+    height: 15rem;
+    border-radius: 29px;
+    padding: 15px;
+    width: 38%;
+   
+}
+
+
+
+ /* block-2 */
+.section-box  .block-2{
+   
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    margin-top: 1rem;
+    
+    }
+    .section-box .block-2 .box1{
+        background-color: #fff;
+        height: 15rem;
+        border-radius: 29px;
+        padding: 15px;
+        width: 38%;
+        
+    }
+    .section-box .block-2 .box2{
+        background-color: #fff;
+        height: 15rem;
+        border-radius: 29px;
+        padding: 15px;
+        width: 60%;
+      
+    }
+
+    .section-box  .block-3{
+     
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1rem;
+        
+        }
+        .section-box .block-3 .box1{
+            background-color: #fff;
+            height: 15rem;
+            border-radius: 29px;
+            padding: 15px;
+            width: 60%;
+         
+        }
+        .section-box .block-3 .box2{
+            background-color: #fff;
+            height: 15rem;
+            border-radius: 29px;
+            padding: 15px;
+            width: 38%;
+           
         }
