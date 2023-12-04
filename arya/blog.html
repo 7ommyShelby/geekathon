@@ -18,21 +18,81 @@
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2.2.2/dist/flickity.min.css">
     <script defer src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+
 </head>
 
 <body>
 
-    <header>
+    <script>
+
+        function myFunction() {
+            var x = document.getElementById("Mobile-scanner");
+            var y = document.getElementById("cross-icon");
+            var z = document.querySelector(".become")
+            console.log(z);
+
+            if (x.style.display === "block") {
+                x.style.display = "none";
+                document.body.style.backgroundColor = "rgba(0,0,0,0)";
+
+            } else {
+                x.style.display = "block";
+                document.body.style.backgroundColor = "rgba(0,0,0,0.3)";
+
+            }
+
+
+
+        }
+
+        function show() {
+            var m = document.getElementById("menu-link");
+            if (m.style.display === "block") {
+                m.style.display = "none";
+                console.log("hello")
+
+            } else {
+                m.style.display = "block";
+
+
+            }
+        }
+
+    </script>
+    <header id="all" onscroll="myFunction()">
         <div class="navbar">
             <div class="header-logo">
                 <img src="https://indrive.com/assets/images/logo/logo_10_years.svg" alt="">
             </div>
+
+
+
             <div class="header-list">
-                <ul>
-                    <li><a href="">inDrive mobility</a></li>
-                    <li><a href="">inDrive services</a></li>
+                <ul id="menu-link">
+                    <li class="dropdown-list">
+                        <p>inDrive mobility</p>
+                        <div class="dropdown">
+                            <p class="dropdown-font-size1"><a href="">City ride</a></p>
+                            <p class="dropdown-font-size1"><a href="">City to city</a></p>
+                            <p class="dropdown-font-size1"><a href="">Courier delivery</a></p>
+                            <p class="dropdown-font-size1"><a href="">Freight delivery</a></p>
+
+                        </div>
+                    </li>
+                    <li><a href="./arya/indriveServices.html">inDrive services</a></li>
                     <li><a href="">Safety</a></li>
-                    <li><a href="">About us</a></li>
+                    <li class="dropdown-list">
+                        <p>About us</0>
+                        <div class="dropdown">
+                            <p class="dropdown-font-size1"><a class="dropdown-font-size" href="">Our values</a></p>
+                            <p class="dropdown-font-size1"><a class="dropdown-font-size" href="">Our impact</a></p>
+                            <p class="dropdown-font-size1"><a class="dropdown-font-size" href="">Contacts</a></p>
+                            <p class="dropdown-font-size1"><a class="dropdown-font-size" href="">Blog</a></p>
+                            <p class="dropdown-font-size1"><a class="dropdown-font-size" href="">Newsroom</a></p>
+
+                        </div>
+                    </li>
                     <li><a href="">Career</a></li>
                 </ul>
 
@@ -45,14 +105,44 @@
                                 language
                             </span>
                         </span>
-                        <p>En</p>
+                        <p id="EN">En</p>
                     </button>
+
                 </div>
+                <div class="dropdown-language">
+                    <p class="languages">Hindi</p>
+                    <p class="languages">English</p>
+                    <p class="languages">Chinese</p>
+                    <p class="languages">Spanish</p>
+                    <p class="languages"> Arabic</p>
+                    <p class="languages">French</p>
+                    <p class="languages"> Persian</p>
+                    <p class="languages">German</p>
+                    <p class="languages">Russian</p>
+                    <p class="languages"> Malay</p>
+                    <p class="languages">Portuguese</p>
+                    <p class="languages"> Italian</p>
+
+                    <p class="languages">Russian</p>
+                    <p class="languages"> German</p>
+                    <p class="languages">Lahnda</p>
+                    <p class="languages"> Tamil</p>
+                    </p>
+                    <p class="languages">Vietnamese</p>
+
+
+                </div>
+
                 <div class="driver-btn2">
-                    <button class="header-btn2">Become a diver</button>
+                    <button class="header-btn2">
+                        <a class="become" href="https://nekocalc.com/px-to-rem-converter">Become a driver</a></button>
                 </div>
             </div>
+            <span href="javascript:void(0);" onclick="show()" id="menu-bar" class="material-symbols-outlined menu-list">
+                menu
+            </span>
         </div>
+
     </header>
 
 
@@ -61,14 +151,221 @@
         <h2>Blog</h2>
     </div>
     <main>
-        <div class="content1">
-            <div class="card">
+        <div class="content">
+            <div class="card card1">
                 <img src="./blog/Marks_appointment_blog-01.png" alt="">
-                <p>Our President on the importance of Aurora Tech and the last call for applicants </p>
-                <p> 16 November 2023</p>
+                <div class="text">
+                    <div class="top">Our President on the importance of Aurora Tech and the last call for applicants
+                    </div>
+                    <div class="bot"> 30 November 2023</div>
+                </div>
+
             </div>
+            <div class="card ">
+                <img src="./blog/1_1000x500_M_Image_for_blog_1203355910__1_.png" alt="">
+
+                <div class="text">
+                    <div class="top">Meet Thyerry Mendes, Driver Acquisition Team Leader (Brazil) and Inner Drive Award
+                        winner 2022.
+                    </div>
+                    <div class="bot"> 23 November 2023</div>
+                </div>
+
+            </div>
+            <div class="card ">
+                <img src="./blog/safety_tips_for_drivers-01__1_.png" alt="">
+
+                <div class="text">
+                    <div class="top">And now… safety tips for drivers
+                    </div>
+                    <div class="bot"> 16 November 2023</div>
+                </div>
+
+            </div>
+            <div class="card ">
+                <img src="./blog/safety_tips_for_passengers-01.png" alt="">
+
+                <div class="text">
+                    <div class="top">How to Be a 5-Star Passenger: Tips for a safer, smoother ride-hailing experience
+                    </div>
+                    <div class="bot"> 09 November 2023</div>
+                </div>
+
+            </div>
+            <div class="card ">
+                <img src="./blog/001_1000x500_Media_ST_RH_English_GLOBAL_GLOBAL_1242234798.png" alt="">
+
+                <div class="text">
+                    <div class="top">Ekaterina Smirnova: the unexpected effects of tech awards, and how they change
+                        lives
+                    </div>
+                    <div class="bot"> 02 November 2023</div>
+                </div>
+
+            </div>
+            <div class="card ">
+                <img src="./blog/2Sp_blogs_in_Oct-23_-_Illustrator_-_CL_2.png" alt="">
+
+                <div class="text">
+                    <div class="top">Sever surprises for Halloween
+                    </div>
+                    <div class="bot"> 26 October 2023</div>
+                </div>
+
+            </div>
+            <div class="card ">
+                <img src="./blog/3_1000x500_M_Image_for_blog_1203355910__1_.png" alt="">
+
+                <div class="text">
+                    <div class="top">Meet Dini Santria
+                    </div>
+                    <div class="bot"> 12 October 2023</div>
+                </div>
+
+            </div>
+            <div class="card ">
+                <img src="./blog/Blog_Temp__1000x500__nuevo_2.png" alt="">
+
+                <div class="text">
+                    <div class="top">inVision at a glance
+                    </div>
+                    <div class="bot"> 12 October 2023</div>
+                </div>
+
+            </div>
+            <div class="card ">
+                <img src="./blog/Corporate_communications_-_Other_-_Image_for_blog_-_Iva_Gumnishka_Illustrator_-_CL__1_.png"
+                    alt="">
+
+                <div class="text">
+                    <div class="top">Meet Aurora Tech second place winner 2023: Iva Gumnishka
+                    </div>
+                    <div class="bot"> 5 October 2023</div>
+                </div>
+
+            </div>
+            <div class="card ">
+                <img src="./blog/Frame-2.png" alt="">
+
+                <div class="text">
+                    <div class="top">What’s the number 1 thing most people forget in rideshare cars?
+                    </div>
+                    <div class="bot"> 28 September 2023</div>
+                </div>
+
+            </div>
+            <div class="card ">
+                <img src="./blog/2_1000x500_M_Image_for_blog_1203355910.png" alt="">
+
+                <div class="text">
+                    <div class="top">Meet the team! Gilberto Arteaga, Driver Operations Regional Team Leader (LATAM):
+                        From turbulent start to Sinet
+                    </div>
+                    <div class="bot"> 26 September 2023</div>
+                </div>
+
+            </div>
+
         </div>
     </main>
+
+    <footer>
+        <div class="head-footer">
+       <div class="footer-1">
+        <div class="footer-block-1">
+        <img src="https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Flogo%2Flogo-white.png&w=48&q=75" alt="">
+        </div>
+        <div class="footer-block-2">
+    
+            <div class="footer-list-1">
+                <div><h2>inDrive mobility</h2></div>
+                <div><p><a href="">City rides</a></p></div>
+                <div><p><a href="">City to city</a></p></div>
+                <div><p><a href="">Courier delivery</a></p></div>
+                <div><p><a href="">Freight delivery</a></p></div>
+                
+    
+            </div>
+            <div class="footer-list-1">
+                <div><h2>About us</h2></div>
+                <div><p><a href="">Our values</a></p></div>
+                <div><p><a href="">Contacts</a></p></div>
+                <div><p><a href="">Blog</a></p></div>
+                <div><p><a href="">Safety</a></p></div>
+                
+    
+            </div>
+            <div class="footer-list-1">
+                <div><h2 id="h2-none">.</h2></div>
+                <div><p><a href="">Our impact</a></p></div>
+                <div><p><a href="">Career</a></p></div>
+                <div><p><a href="">inDrive services</a></p></div>
+                
+                
+    
+            </div>
+            
+        
+        </div>
+        <div class="footer-block-3">
+            <div class="driver-btn3">
+                <button class="header-btn3">
+                    <span>
+                        <span id="web2" class="material-symbols-outlined">
+                            language
+                            </span>
+            </span>
+            <p>En</p>
+            </button>
+        </div>
+        </div>
+       </div>
+       <div class="footer-2">
+        <div class="footer-box-2">
+            <div class="footer2-block-left">
+                <img src="https://indrive.com/assets/images/icons/social_networks/wiki-white.svg" alt="">
+                <p>inDrive is an online aggregator. We do not participate in cooperations between our users: they create and perform all requests in our app on their own</p>
+                <div class="footer-store-main">
+                    <div class="footer-store">
+                    <img src="https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Ficons%2Fmarkets%2Fen%2Fapp_store.png&w=1920&q=75" alt="">
+                </div>
+            <div class="footer-store">
+                    <img src="https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Ficons%2Fmarkets%2Fen%2Fplay_market.png&w=1920&q=75" alt="">
+                </div>
+            <div class="footer-store">
+                    <img src="https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Ficons%2Fmarkets%2Fen%2Fhuawei.png&w=1920&q=75" alt="">
+                </div>
+    
+                </div>
+                <h3 id="copyright">© SUOL INNOVATIONS LTD, 2013-2023</h3>
+            </div>
+            <div class="footer2-block-right">
+                <img src="https://indrive.com/assets/images/icons/brandsign.svg" alt="">
+            </div>
+            
+        </div>
+    </div>
+    
+    <div >
+    <div class="footer-line-3"></div>
+        <div class="footer-3">
+        <ul>
+            <li><a href="">Legal documents</a></li>
+            <li><a href="">Privacy policy</a></li>
+            <li><a href="">Intellectual Property Notice</a></li>
+            <li><a href="">Terms of Use</a></li>
+            <li><a href="">Delete account</a></li>
+        </ul>
+        <ul>
+            <a href="#all">
+            <button ><img src="https://indrive.com/assets/images/icons/button-to-top.svg" alt="">
+                
+            </a>
+        </ul>
+    </div>
+    </div>
+       </div>
+    </footer>
 </body>
 
 </html>
