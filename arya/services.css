@@ -225,7 +225,7 @@ main {
 }
 
 .ques span {
-    width: 35%;
+    width: 38%;
     height: 1rem;
     background-color: #a7e92f;
     margin-top: 3rem;
@@ -328,7 +328,7 @@ main {
 }
 
 .pitch span {
-    width: 12.5%;
+    width: 13.5%;
     background-color: #a7e92f;
     height: 1rem;
     top: 3rem;
@@ -402,10 +402,10 @@ main {
 
 .qr {
     height: 25rem;
-    width: 24rem;
+    width: 25rem;
     background-color: white;
     position: relative;
-    left: 17rem;
+    left: 10rem;
     transform: translateY(1.5rem);
     border: none;
     border-radius: 2rem;

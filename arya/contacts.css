@@ -232,7 +232,7 @@ main {
 .card {
     display: flex;
     flex-direction: column;
-    width: 29rem;
+    width: 32%;
     height: 18rem;
     background-color: white;
     border: none;
@@ -265,7 +265,7 @@ main {
 }
 
 .office span {
-    width: 8%;
+    width: 8.5%;
     height: 1rem;
     background-color: #a7e92f;
     margin-top: 3rem;
@@ -342,6 +342,7 @@ main {
     text-decoration: none;
     background-color: #a7e92f;
     margin-top: 2rem;
+    color: black;
 }
 
 /*Footer*/
