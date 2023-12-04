@@ -277,7 +277,8 @@ main {
     font-weight: 400;
     font-size: 1.25rem;
 }
-.side2{
+
+.side2 {
     display: flex;
     align-items: center;
 }
@@ -295,14 +296,13 @@ main {
     justify-content: space-around;
     align-items: center;
 }
-.ins:hover{
-    span{
-        border:none;
-        background-color: #a7e92f;
 
-    }
+.ins:hover span {
+    border: none;
+    background-color: #a7e92f;
 }
-.ins:not(:hover){
+
+.ins:not(:hover) {
     opacity: .5;
 }
 
@@ -431,7 +431,7 @@ main {
 /*FOOTER*/
 
 
-footer{
+footer {
     background-color: #1b1b1c;
     margin-inline: auto;
     border-top-right-radius: 48px;
@@ -440,147 +440,164 @@ footer{
     padding-bottom: 2rem;
     margin-top: 7rem;
 }
-.head-footer{
-    margin-left:2rem ;
+
+.head-footer {
+    margin-left: 2rem;
     margin-right: 2rem;
 }
 
-.footer-1{
+.footer-1 {
 
-display: flex;
-padding-top: 4rem;
-justify-content: space-between;
-
-}
-.footer-block-1{
-
-}
-.footer-block-1 img{
-
-}
-.footer-block-2{
     display: flex;
-  
+    padding-top: 4rem;
+    justify-content: space-between;
+
+}
+
+.footer-block-1 {}
+
+.footer-block-1 img {}
+
+.footer-block-2 {
+    display: flex;
+
     justify-content: space-around;
 }
 
-.footer-list-1{
+.footer-list-1 {
     padding: 0px 30px;
 }
-.footer-list-1 div{
-    
-}
-.footer-list-1 div h2{
+
+.footer-list-1 div {}
+
+.footer-list-1 div h2 {
     color: #fff;
     font-size: 16px;
     margin-bottom: 2rem;
 }
-.footer-list-1 div p{
+
+.footer-list-1 div p {
     font-size: 14px;
     padding: 20px 0px;
 }
-.footer-list-1 div p a{
+
+.footer-list-1 div p a {
     text-decoration: none;
     color: #fff;
 }
-.driver-btn3{
+
+.driver-btn3 {
     padding-right: 2rem;
 }
- .driver-btn3 .header-btn3{
-display: flex;
-align-items: center;
-border: none;
-background-color:#2d2d2e;
-padding: 5px 0px;
-border-radius: 29px;
+
+.driver-btn3 .header-btn3 {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #2d2d2e;
+    padding: 5px 0px;
+    border-radius: 29px;
 }
- .driver-btn3 .header-btn3 span{
-    background-color:#2d2d2e;
+
+.driver-btn3 .header-btn3 span {
+    background-color: #2d2d2e;
     border-radius: 29px;
     padding: 0px 2px 0px 7px;
 }
-#web2{
+
+#web2 {
     color: white;
     font-size: 23px;
     padding: 2px 0;
 }
 
-.driver-btn3 p{
-font-size: 1rem;
-padding: 0px 12px 0px 5px;
-background-color:#2d2d2e;
-border-radius: 29px;
-color: white;
+.driver-btn3 p {
+    font-size: 1rem;
+    padding: 0px 12px 0px 5px;
+    background-color: #2d2d2e;
+    border-radius: 29px;
+    color: white;
 }
 
-.footer-2{
-margin-top: 5rem;
+.footer-2 {
+    margin-top: 5rem;
 }
-.footer-2 .footer-box-2{
+
+.footer-2 .footer-box-2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-}
-.footer-2 .footer-box-2 .footer2-block-left{
-    width: 33%;
-}
-.footer-2 .footer-box-2 .footer2-block-left img{
-margin-bottom: 2rem;
-}
-.footer-2 .footer-box-2 .footer2-block-left p{
-    color: #767677!important;
-    font-size: 14px;
-    margin-bottom: 2rem;
-    
-}
-.footer-store-main{
-display: flex;
-}
-.footer-store{
 
 }
-.footer-store img{
+
+.footer-2 .footer-box-2 .footer2-block-left {
+    width: 33%;
+}
+
+.footer-2 .footer-box-2 .footer2-block-left img {
+    margin-bottom: 2rem;
+}
+
+.footer-2 .footer-box-2 .footer2-block-left p {
+    color: #767677 !important;
+    font-size: 14px;
+    margin-bottom: 2rem;
+
+}
+
+.footer-store-main {
+    display: flex;
+}
+
+.footer-store {}
+
+.footer-store img {
     width: 90%;
     border: 1px solid wheat;
     border-radius: 7px;
-   
-   
+
+
 
 }
-#h2-none{
+
+#h2-none {
     color: #1b1b1c;
 }
-#copyright{
-    color: #767677!important;
+
+#copyright {
+    color: #767677 !important;
     font-size: 14px;
     margin-bottom: 2rem;
 }
-.footer2-block-right{
+
+.footer2-block-right {
     padding-top: 5rem;
     padding-right: 3rem;
 }
-.footer2-block-right img{
-    
+
+.footer2-block-right img {}
+
+.footer-3 {
+    margin-top: 2rem;
 }
-.footer-3{
-margin-top: 2rem;
-}
-.footer-3 ul{
+
+.footer-3 ul {
     display: flex;
 }
-.footer-3 ul li{
-  list-style: none;  
-  padding: 0px 5px;
+
+.footer-3 ul li {
+    list-style: none;
+    padding: 0px 5px;
 }
-.footer-3 ul li a{
+
+.footer-3 ul li a {
     text-decoration: none;
     font-size: 15px;
     color: white;
 }
 
 
-.footer-line-3{
+.footer-line-3 {
     width: 100%;
     height: 1px;
     background-color: rgb(90, 88, 88);
