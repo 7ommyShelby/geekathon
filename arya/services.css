@@ -1350,7 +1350,7 @@ main {
     background-image: url(./img/in_local_cover.webp);
     background-position: center;
     height: 70vh;
-    width: 95%;
+    width: 90vw;
     border-radius: 3rem;
     display: flex;
     align-items: flex-end;
@@ -1358,22 +1358,30 @@ main {
 
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:960px) {
     .image h1 {
         font-size: 2rem !important;
     }
 
     .section1 {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
+        width: 90% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: space-around !important;
+        text-align: start !important;
+        text-wrap: wrap;
     }
 
     .one h1 {
         font-size: 24px !important;
         line-height: 32px;
+    }
+    .two{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50vw !important;
     }
 
     .two p {
@@ -1426,6 +1434,7 @@ main {
     .section5 {
         display: flex !important;
         flex-direction: column !important;
+
     }
 
     .reason {
@@ -1439,6 +1448,7 @@ main {
 
     .pitch h2 {
         font-size: 2rem !important;
+        top: -1.4rem !important;
     }
 
     .section6 {
@@ -1448,7 +1458,7 @@ main {
 
     #appbtn {
         margin-top: 2rem;
-        display: flex;
+        display: flex !important;
         justify-content: center;
         text-decoration: none;
         background: #a7e92f;
@@ -1460,6 +1470,9 @@ main {
         font-size: 1.25rem;
         font-weight: 400;
     }
+}
+#appbtn{
+    display: none;
 }
 
 .name {
@@ -1542,7 +1555,7 @@ main {
 
 .ques {
     display: flex;
-    padding: relative;
+    
 }
 
 .ques span {
@@ -1609,6 +1622,7 @@ main {
     height: 60%;
 }
 
+
 .section4 {
     margin-top: 4rem;
     display: flex;
@@ -1639,21 +1653,23 @@ main {
     display: flex;
     align-items: flex-start;
     width: 100%;
-    height: 16vh;
+    /* height: 16vh; */
+    position: relative;
 }
 
 .pitch h2 {
     font-size: 3.5rem;
     font-weight: 600;
     position: absolute;
+    top:-3rem;
 }
 
 .pitch span {
     width: 13.5%;
     background-color: #a7e92f;
     height: 1rem;
-    top: 3rem;
-    position: relative;
+    /* top: 3rem; */
+    /* position: relative; */
 }
 
 .reason {
@@ -1681,7 +1697,7 @@ main {
 .section6 {
     margin-top: 8rem;
     background-color: black;
-    width: 95%;
+    width: 95vw;
     height: 22rem;
     border-radius: 3rem;
     display: flex;
