@@ -45,10 +45,7 @@ padding-top: 0.8rem;
 .dropdown-list{
    cursor: pointer;
 }
-.dropdown-list:hover .dropdown{
-display: block;
-z-index: 2;
-}
+
 .dropdown{
 display:none ;
 position: absolute;
@@ -678,7 +675,7 @@ margin-top: 2rem;
         /* header */
         header .navbar{
            display: flex;
-           justify-content: flex-start;
+          justify-content: space-between;
         }
         .header-web{
     padding-left: 28rem;

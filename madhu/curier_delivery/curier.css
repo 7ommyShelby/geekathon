@@ -46,10 +46,7 @@ padding-top: 0.8rem;
 .dropdown-list{
    cursor: pointer;
 }
-.dropdown-list:hover .dropdown{
-display: block;
-z-index: 2;
-}
+ 
 .dropdown{
 display:none ;
 position: absolute;
@@ -679,7 +676,7 @@ margin-top: 2rem;
         /* header */
         header .navbar{
            display: flex;
-           justify-content: flex-start;
+          justify-content: space-between;
         }
         .header-web{
     padding-left: 28rem;
@@ -1243,12 +1240,13 @@ margin-top: 2rem;
         font-size: 67px;
         font-weight: 600;
         padding-left: 26px;
-        padding-bottom: 0px;
+        padding-bottom: 20px;
         line-height:67px;
         vertical-align:baseline;
         letter-spacing: -0.4px;
         word-spacing: 0px;
         cursor: default;
+        
     }
     .bar_div_div{
         width: 50vw;
@@ -1560,16 +1558,28 @@ margin-top: 2rem;
         cursor: default;
     }
     @media screen and (max-width:672px){
+        .features_img{
+            padding-top:3rem ;
+        }
         .bar_div_div{
             display: none;
         }
         .text_side_div_div {
             width: 100vw;
         }
+        .main_div_div{
+            background-position: center 52%;
+            background-size: cover;
+        }
     }
     @media screen and (max-width:320px){
+        .features_img{
+            
+        }
         .main_head {
-            font-size: 44px;
+            font-size: 42px;
+            line-height: 43px;
+            margin-bottom: 7rem;
         }
         .heading_adv {
             font-size: 30px;
@@ -1596,6 +1606,7 @@ margin-top: 2rem;
             position: relative;
             top: -45px;
             left: 0px;
+            
         }
         .img_title_div {
             padding: 0px;
@@ -1621,7 +1632,10 @@ margin-top: 2rem;
             z-index: -10;
         }
     }
-    @media screen and (max-width:764px){
+    @media screen and (min-width:673px) and (max-width:768px){
+        .features_img{
+            padding-top: 3rem;
+        }
         .heading_adv{
             font-size: 2rem;
         }

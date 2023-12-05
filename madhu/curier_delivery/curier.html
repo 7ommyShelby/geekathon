@@ -63,94 +63,130 @@
 
 
 
-
     <header id="all" onscroll="myFunction()">
         <div class="navbar">
             <div class="header-logo">
-
-               <a href=""> <img src="./64ad054995d96a6e7e70471f_LOGO_10_YEARS 1.svg" alt=""></a>
-
+             
+               <a href="./index.html"> <img src="64ad054995d96a6e7e70471f_LOGO_10_YEARS 1.svg" alt=""></a>
+            
             </div>
-
-
-
+            
+               
+           
             <div class="header-list">
                 <ul id="menu-link">
-                    <li class="dropdown-list">
-                        <p>inDrive mobility</p>
-                        <div class="dropdown">
-                            <p class="dropdown-font-size1"><a href="">City ride</a></p>
-                            <p class="dropdown-font-size1"><a href="">City to city</a></p>
-                            <p class="dropdown-font-size1"><a href="">Courier delivery</a></p>
-                            <p class="dropdown-font-size1"><a href="">Freight delivery</a></p>
+                    <li  class="dropdown-list" onclick="demo()"><p>inDrive mobility</p>
+                        <div class="dropdown" id="dropdown-list">
+                            <p class="dropdown-font-size1"><a  href="">City ride</a></p>
+                            <p class="dropdown-font-size1"><a  href="">City to city</a></p>
+                            <p class="dropdown-font-size1"><a  href="./madhu/curier_delivery/curier.html">Courier  delivery</a></p>
+                            <p class="dropdown-font-size1"><a  href="./madhu/freight delivery/">Freight delivery</a></p>
 
                         </div>
                     </li>
                     <li><a href="./arya/indriveServices.html">inDrive services</a></li>
                     <li><a href="">Safety</a></li>
-                    <li class="dropdown-list">
-                        <p>About us</0>
-                        <div class="dropdown">
+                    <li  class="dropdown-list"   onclick="demoo()"><p>About us</0>
+                        <div class="dropdown" id="dropdown-list-1">
                             <p class="dropdown-font-size1"><a class="dropdown-font-size" href="">Our values</a></p>
                             <p class="dropdown-font-size1"><a class="dropdown-font-size" href="">Our impact</a></p>
                             <p class="dropdown-font-size1"><a class="dropdown-font-size" href="">Contacts</a></p>
-                            <p class="dropdown-font-size1"><a class="dropdown-font-size" href="">Blog</a></p>
+                            <p class="dropdown-font-size1"><a class="dropdown-font-size" href="./arya/blog.html">Blog</a></p>
                             <p class="dropdown-font-size1"><a class="dropdown-font-size" href="">Newsroom</a></p>
 
-                        </div>
-                    </li>
+                        </div></li>
                     <li><a href="">Career</a></li>
                 </ul>
 
             </div>
             <div class="header-web">
-                <div class="driver-btn1">
-                    <button class="header-btn1" id="lan-btn">
-                        <span>
-                            <span id="web" class="material-symbols-outlined">
-                                language
+                <div class="driver-btn1" >
+                <button class="header-btn1" id="lan-btn">
+                    <span>
+                        <span id="web" class="material-symbols-outlined">
+                            language
                             </span>
-                        </span>
-                        <p id="EN">En</p>
-                    </button>
-                    <div class="dropdown-language">
-                        <p class="languages">Hindi</p>
-                        <p class="languages">English</p>
-                        <p class="languages">Chinese</p>
-                        <p class="languages">Spanish</p>
-                        <p class="languages"> Arabic</p>
-                        <p class="languages">French</p>
-                        <p class="languages"> Persian</p>
-                        <p class="languages">German</p>
-                        <p class="languages">Russian</p>
-                        <p class="languages"> Malay</p>
-                        <p class="languages">Portuguese</p>
-                        <p class="languages"> Italian</p>
-
-                        <p class="languages">Russian</p>
-                        <p class="languages"> German</p>
-                        <p class="languages">Lahnda</p>
-                        <p class="languages"> Tamil</p>
-                        </p>
-                        <p class="languages">Vietnamese</p>
-
-
-                    </div>
-                </div>
-
-
-                <div class="driver-btn2">
-                    <button class="header-btn2">
-                        <a class="become" href="https://nekocalc.com/px-to-rem-converter">Become a
-                            driver</a></button>
-                </div>
+            </span>
+            <p id="EN">En</p>
+            </button>
+            <div class="dropdown-language">
+                <p class="languages">Hindi</p>
+                <p class="languages">English</p>
+                <p class="languages">Chinese</p>
+                <p class="languages">Spanish</p>
+                <p class="languages"> Arabic</p>
+                <p class="languages">French</p>
+                <p class="languages"> Persian</p>
+                <p class="languages">German</p>
+                <p class="languages">Russian</p>
+                <p class="languages"> Malay</p>
+                <p class="languages">Portuguese</p>
+                <p class="languages"> Italian</p>
+              
+                <p class="languages">Russian</p>
+                <p class="languages"> German</p>
+                <p class="languages">Lahnda</p>
+                <p class="languages"> Tamil</p></p>
+                <p class="languages">Vietnamese</p>
+               
+           
+        </div>
+        </div>
+      
+        
+        <div class="driver-btn2">
+           <button class="header-btn2">
+            <a class="become" href="https://nekocalc.com/px-to-rem-converter">Become a driver</a></button>
             </div>
-            <span href="javascript:void(0);" onclick="show()" id="menu-bar" class="material-symbols-outlined menu-list">
-                menu
+        </div>
+        <span href="javascript:void(0);"  onclick="show()" id="menu-bar" class="material-symbols-outlined menu-list">
+            menu
             </span>
         </div>
-
+        
     </header>
+
+      
+    <script>
+        function demo() {
+ 
+         var k = document.getElementById("dropdown-list");
+         
+              if (k.style.display === "block") {
+                k.style.display = "none";
+                console.log("hello")
+               
+              } else {
+                k.style.display = "block";
+                
+               
+              }
+     }
+
+     function demoo(){
+ 
+ var l = document.getElementById("dropdown-list-1");
+ 
+      if (l.style.display === "block") {
+        l.style.display = "none";
+        console.log("hello")
+       
+      } else {
+        l.style.display = "block";
+        
+       
+      }
+}
+        // let dropdown=document.querySelector(".dropdown-list");
+        // dropdown.forEach((item)=>{
+        // item.addEventListener("click",(ev)=>{
+        //     let list=ev.querySelector(".dropdown")
+        // list.style.display="block"
+        // })
+     
+        // })
+      
+        </script>
     
     <div class="body">
         <div class="main_div">
