@@ -36,10 +36,10 @@ padding-top: 0.8rem;
 .dropdown-list{
    cursor: pointer;
 }
-.dropdown-list:hover .dropdown{
+/* .dropdown-list:hover .dropdown{
 display: block;
 z-index: 2;
-}
+} */
 .dropdown{
 display:none ;
 position: absolute;
@@ -4148,7 +4148,12 @@ background-color: #a7e92f;
 
 
 }
- 
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .dropdown {
+top: 13vh;
+    }
+
+}
 
   
  
