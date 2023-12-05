@@ -1320,6 +1320,90 @@ footer {
 }
 
 /*MAIN*/
+@media screen and (min-width:1025px) and (max-width:1440px) {
+    .part1 h2 {
+        font-size: 3rem !important;
+    }
+
+    .part1 p {
+        font-size: 2rem;
+    }
+
+    .part1 button {
+        height: 80px !important;
+        align-items: center !important;
+        font-size: 20px !important;
+        width: 332px !important;
+        border: none !important;
+        background: #a7e92f !important;
+        color: #323942 !important;
+        border-radius: 16px !important;
+        cursor: pointer !important;
+        padding: 0, 16px, 1px, 16px !important;
+    }
+
+    .part2 {
+        max-width: 50% !important;
+    }
+
+    .part2 img {
+        width: 100% !important;
+    }
+
+    .team h2 {
+        font-size: 2rem !important;
+    }
+
+    .team span {
+        display: none;
+    }
+
+    .card p {
+        font-size: 1rem !important;
+    }
+
+    .card a {
+        font-size: 1.5rem !important;
+    }
+
+    .office h2 {
+        font-size: 2rem !important;
+
+    }
+
+    .office span {
+        display: none;
+    }
+
+    .office p {
+        font-size: 1rem !important;
+    }
+
+    .view {
+        display: flex !important;
+        width: 100% !important;
+        justify-content: space-between !important;
+    }
+
+    .photo {
+
+        width: 30% !important;
+    }
+
+    .photo img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section5 {
+        width: 90% !important;
+
+
+    }
+    .section2{
+        margin-top: 3rem !important;
+    }
+}
 
 @media screen and (min-width:769px) and (max-width:1024px) {
     .part1 h2 {
@@ -1845,7 +1929,6 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .photo {
