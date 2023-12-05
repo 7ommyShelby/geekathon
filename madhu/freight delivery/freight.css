@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: "Noto Sans",sans-serif;
 }
-
+#up-arraow{
+    color: black;
+}
 body{
     background: #f7f8f7;
 }
@@ -15,9 +17,6 @@ body{
 
 } */
 
-#up-arrow{
-color: black;
-}
 header{
  
     width: 100%;
@@ -1213,13 +1212,27 @@ margin-top: 2rem;
         }
         
     }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ********** */
 
     .main_div{
         overflow: hidden;
     }
     .main_div_div{
         background-image: url("./image/main.webp");
-        height: 50rem;
+        height: 31.5rem;
         width: 100vw;
         border-radius: 50px;
         display: flex;
@@ -1255,8 +1268,6 @@ margin-top: 2rem;
         display: flex;
         justify-content: flex-end;
         margin-right: 30px;
-        align-items: flex-end;
-        margin-bottom: 30px;
     }
     .bar_div{
     }
@@ -1311,7 +1322,7 @@ margin-top: 2rem;
         height: 185px;
         background-color: white;
         border-radius: 50px;
-        cursor: default;
+        cursor: pointer;
     }
     .features_img{
         width: 150px;
@@ -1366,7 +1377,7 @@ margin-top: 2rem;
         margin-top: 100px;
     }
     .heading_adv{
-        font-size: 4rem;
+        font-size: 56px;
         margin-left: 30px;
     }
     .section_div{
@@ -1378,12 +1389,12 @@ margin-top: 2rem;
     .adv{
         background-color: white;
         border-radius: 48px;
-        height: 300px;
+        height: 250px;
         display: flex;
         align-items: flex-start;
         flex-direction: column;
         justify-content: center;
-        width: 400px;
+        width: 350px;
         padding-left: 20px;
         cursor: default;
     }
@@ -1422,31 +1433,17 @@ margin-top: 2rem;
     .adv_two{
         background-color: #242425;
         border-radius: 48px;
-        height: 300px;
+        height: 250px;
         display: flex;
         align-items: flex-start;
         flex-direction: column;
         justify-content: center;
-        width: 400px;
+        width: 350px;
         padding-left: 20px;
         cursor: default;
     }
     .adv_img_two{
     
-    }
-    .line_header_adv{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .adv_line{
-        background-color: #A7E92F;
-        width: 46%;
-        height: 20px;
-        position: relative;
-        top: 95px;
-        left: 142px;
-        z-index: -10;
     }
     .adv_title_two{
         color: #F7F8F7;
@@ -1488,6 +1485,7 @@ margin-top: 2rem;
         line-height: 76px;
         font-weight: 350;
         margin: 0;
+        cursor: default;
     }
     .how_start_div{
         display: flex;
@@ -1556,9 +1554,6 @@ margin-top: 2rem;
     .how_start_main_one_mobile{
         display: none;
     }
-    .how_start_main_one{
-        cursor: default;
-    }
     @media screen and (max-width:672px){
         .bar_div_div{
             display: none;
@@ -1578,15 +1573,6 @@ margin-top: 2rem;
         }
         .how_start_para_mobile{
             margin: 0px;
-        }
-        .adv_line{
-            background-color: #A7E92F;
-            width: 53%;
-            height: 11px;
-            position: relative;
-            top: 10px;
-            left: 8px;
-            z-index: -10;
         }
     }
     @media screen and (max-width:188px){
@@ -1611,29 +1597,8 @@ margin-top: 2rem;
         .how_start_para_mobile{
             margin: 0px;
         }
-        .adv_line{
-            background-color: #A7E92F;
-            width: 53%;
-            height: 11px;
-            position: relative;
-            top: 10px;
-            left: 8px;
-            z-index: -10;
-        }
     }
     @media screen and (max-width:764px){
-        .heading_adv{
-            font-size: 2rem;
-        }
-        .adv_line{
-            background-color: #A7E92F;
-            width: 53%;
-            height: 11px;
-            position: relative;
-            top: 51px;
-            left: 128px;
-            z-index: -10;
-        }
         .number_three{
             bottom: 0px;
         }
@@ -1691,7 +1656,7 @@ margin-top: 2rem;
         }
         .download_button_mobile{
             font-size: 20px;
-            margin-top: 30px;
+            margin-top: 30px; 
             border-radius: 20px;
             padding: 28px 30px;
             border:none;
@@ -1701,7 +1666,7 @@ margin-top: 2rem;
             display: flex;
             flex-direction: row;
             align-items: center;
-            overflow-x: scroll; /* Enable horizontal scrolling  */
+            overflow-x: scroll; /* Enable horizontal scrolling */
             white-space: nowrap;
             display: flex; /* Use flexbox layout */
             flex-flow: row nowrap;
@@ -1711,6 +1676,5 @@ margin-top: 2rem;
             flex-direction: column;
         }
     }
-    
     
     

@@ -12,7 +12,7 @@ body{
 header{
  
     width: 100%;
-    height: 14vh;
+   
 }
 
 
@@ -357,21 +357,21 @@ font-size: 16px;
     
 }
 .sect1-img{
-    background-image: linear-gradient(to right, rgba(0,0,0,0.4) 50%,transparent ),url('https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Fcovers%2Fmobility.jpeg&w=3840&q=100');
+    background-image: linear-gradient(to right, rgba(0,0,0,0.4) 50%,transparent ),url('mobility.webp');
     width: 100%;
     height: 600px;
     background-size: cover;
     background-position: center;
 }
 .sect1-img2{
-    background-image: linear-gradient(to right, rgba(0,0,0,0.4) 50%,transparent ),url('https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Fcovers%2Fservices.jpeg&w=3840&q=100');
+    background-image: linear-gradient(to right, rgba(0,0,0,0.4) 50%,transparent ),url('services_widget.webp');
     width: 100%;
     height: 600px;
     background-size: cover;
     background-position: center;
 }
 .sect1-img3{
-    background-image: linear-gradient(to right, rgba(0,0,0,0.4) 50%,transparent ),url('https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Fcovers%2Fnew_home_cover.jpg&w=1920&q=100');
+    background-image: linear-gradient(to right, rgba(0,0,0,0.4) 50%,transparent ),url('70297ee1-1f81-47fe-806a-eae174c638d4.jpeg');
     width: 100%;
     height: 600px;
     background-size: cover;
@@ -859,7 +859,7 @@ color: black;
     min-height: 100%;
     max-height: 100%;
     object-fit: cover;
-    margin-top: 97px;
+    margin-top: 59px;
     
 }
 /* section-6 */
@@ -1444,7 +1444,7 @@ color: black;
    /*  */
 
    .sect1-img{
-    background-image: linear-gradient(to right, rgba(0,0,0,0.4) 50%,transparent ),url('https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Fcovers%2Fmobility_mobile.jpeg&w=3840&q=100');
+    background-image: linear-gradient(to right, rgba(0,0,0,0.4) 50%,transparent ),url('mobility_mobile.webp');
     width: 100%;
     height: 600px;
     background-size: cover;
@@ -1455,12 +1455,12 @@ color: black;
     height: 600px;
     background-size: cover;
 } */
-.sect1-img3{
+/* .sect1-img3{
     background-image: linear-gradient(to right, rgba(0,0,0,0.4) 50%,transparent ),url('	https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Fcovers%2Fnew_home_cover.jpg&w=3840&q=100');
     width: 100%;
     height: 600px;
     background-size: cover;
-}
+} */
 
 .inner-btn-2,.inner-btn-1,.inner-btn-3{
 background-color: #a7e92f;
@@ -1996,7 +1996,7 @@ width: 100% !important;
    /*  */
 
    .sect1-img{
-    background-image: linear-gradient(to right, rgba(0,0,0,0.4) 50%,transparent ),url('https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Fcovers%2Fmobility_mobile.jpeg&w=3840&q=100');
+    background-image: linear-gradient(to right, rgba(0,0,0,0.4) 50%,transparent ),url('mobility_mobile.webp');
     width: 100%;
     height: 600px;
     background-size: cover;
@@ -2007,12 +2007,12 @@ width: 100% !important;
     height: 600px;
     background-size: cover;
 } */
-.sect1-img3{
+/* .sect1-img3{
     background-image: linear-gradient(to right, rgba(0,0,0,0.4) 50%,transparent ),url('	https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Fcovers%2Fnew_home_cover.jpg&w=3840&q=100');
     width: 100%;
     height: 600px;
     background-size: cover;
-}
+} */
 
 .inner-btn-2,.inner-btn-1,.inner-btn-3{
 background-color: #a7e92f;
@@ -2713,13 +2713,13 @@ color: #a7e92f;
   /* section-1 */
 
   .sect1-img{
-   background-image: linear-gradient(to right, rgba(0,0,0,0.4) 50%,transparent ),url('https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Fcovers%2Fmobility.jpeg&w=3840&q=100');
+   background-image: linear-gradient(to right, rgba(0,0,0,0.4) 50%,transparent ),url('mobility_mobile.webp');
    width: 100%;
    height: 600px;
    background-size: cover;
    background-position: center 7%;
 }
-.sect1-img2{
+/* .sect1-img2{
    background-image: linear-gradient(to right, rgba(0,0,0,0.4) 50%,transparent ),url('https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Fcovers%2Fservices.jpeg&w=3840&q=100');
    width: 100%;
    height: 600px;
@@ -2732,7 +2732,7 @@ color: #a7e92f;
    height: 600px;
    background-size: cover;
    background-position: center 7%;
-}
+} */
 .inner-btn-2,.inner-btn-1,.inner-btn-3{
 background-color: #a7e92f;
 }
