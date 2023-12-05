@@ -10,6 +10,7 @@ body {
     scroll-behavior: smooth;
     align-items: center;
 }
+
 header {
     width: 100%;
 }
@@ -18,7 +19,6 @@ header {
 #web {
     font-size: 23px;
     padding: 2px 0;
-
 }
 
 #EN {
@@ -573,7 +573,6 @@ footer {
 
 }
 
-
 @media screen and (min-width:375px) and (max-width:425px) {
 
     /* header */
@@ -728,9 +727,6 @@ footer {
     .footer-3 ul li a {
         font-size: 12px;
     }
-
-    /*  */
-
 }
 
 @media screen and (min-width:426px) and (max-width:768px) {
@@ -741,9 +737,7 @@ footer {
         justify-content: flex-start;
     }
 
-    .header-web {
-        
-    }
+    .header-web {}
 
     header .navbar .header-logo img {}
 
@@ -921,9 +915,7 @@ footer {
 
     /* header */
     header {
-
         width: 100%;
-       
     }
 
 
@@ -987,10 +979,6 @@ footer {
 
     }
 
-
-    /* ***********************
-    
-    ************************/
     .dropdown-language {
         display: none;
         position: absolute;
@@ -1354,49 +1342,61 @@ footer {
         cursor: pointer !important;
         padding: 0, 16px, 1px, 16px !important;
     }
-    .part2{
+
+    .part2 {
         max-width: 50% !important;
     }
-    .part2 img{
+
+    .part2 img {
         width: 100% !important;
     }
-    .team h2{
+
+    .team h2 {
         font-size: 2rem !important;
     }
-    .team span{
+
+    .team span {
         display: none;
     }
 
-    .card p{
+    .card p {
         font-size: 1rem !important;
     }
-    .card a{
+
+    .card a {
         font-size: 1.5rem !important;
     }
-    .office h2{
+
+    .office h2 {
         font-size: 2rem !important;
 
     }
-    .office span{
+
+    .office span {
         display: none;
     }
-    .office p{
+
+    .office p {
         font-size: 1rem !important;
     }
-    .view{
+
+    .view {
         display: flex !important;
         width: 100% !important;
         justify-content: space-between !important;
     }
-    .photo{ 
+
+    .photo {
 
         width: 30% !important;
     }
-    .photo img{
+
+    .photo img {
         width: 100%;
         height: 100%;
     }
-    .section5{
+
+    .section5 {
         width: 100% !important;
 
 
@@ -1406,14 +1406,17 @@ footer {
 
 @media screen and (min-width:426px) and (max-width:768px) {
 
-    .section1{
+    .section1 {
         display: flex !important;
         flex-direction: column !important;
 
     }
-    .part1, .part2{
+
+    .part1,
+    .part2 {
         width: 100% !important;
     }
+
     .part1 h2 {
         font-size: 2rem !important;
     }
@@ -1434,80 +1437,98 @@ footer {
         cursor: pointer !important;
         padding: 0, 16px, 1px, 16px !important;
     }
-    .part2{
+
+    .part2 {
         margin-top: 2rem;
         display: flex !important;
         align-items: center !important;
         justify-content: center !important;
     }
-    .part2 img{
+
+    .part2 img {
         width: 60% !important;
     }
 
-    .section2{
+    .section2 {
         margin-top: 3rem !important;
     }
-    .team h2{
+
+    .team h2 {
         font-size: 2rem !important;
     }
-    .team span{
+
+    .team span {
         display: none;
     }
-    .section3{
+
+    .section3 {
         display: flex !important;
         flex-direction: column !important;
         gap: 1rem !important;
-    } 
-    .card{
-        height:fit-content !important;
-        width: 90%  !important;
+    }
+
+    .card {
+        height: fit-content !important;
+        width: 90% !important;
         gap: .5rem !important;
     }
 
-    .card p{
+    .card p {
         font-size: 1rem !important;
     }
-    .card a{
+
+    .card a {
 
         font-size: 1.5rem !important;
     }
-    .section4{
+
+    .section4 {
         margin-top: 3rem !important;
     }
-    .office h2{
+
+    .office h2 {
         font-size: 2rem !important;
 
     }
-    .office span{
+
+    .office span {
         display: none;
     }
-    .office p{
+
+    .office p {
         font-size: 1rem !important;
     }
-    .view{
+
+    .view {
         display: flex !important;
         width: 100% !important;
         justify-content: space-between !important;
     }
-    .photo{ 
+
+    .photo {
 
         width: 30% !important;
     }
-    .photo img{
+
+    .photo img {
         width: 100%;
         height: 100%;
     }
-    .section5{
+
+    .section5 {
         width: 100% !important;
     }
-    .section5 h1{
+
+    .section5 h1 {
         font-size: 2rem !important;
     }
-    .section5 p{
+
+    .section5 p {
         font-size: 1rem !important;
         margin-top: .5rem !important;
     }
-    .section5 a{
+
+    .section5 a {
         width: 100% !important;
     }
 }
