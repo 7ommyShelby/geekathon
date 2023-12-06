@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
+    font-family: "Noto Sans", sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -797,10 +798,10 @@ header .navbar {
     cursor: pointer;
 }
 
-.dropdown-list:hover .dropdown {
+/* .dropdown-list:hover .dropdown {
     display: block;
     z-index: 2;
-}
+} */
 
 .dropdown {
     display: none;
