@@ -183,7 +183,7 @@ header .navbar .header-logo img {
 }
 
 .menu-list {
-    display: none;
+    display: none !important;
 }
 
 .header-web p {
@@ -521,7 +521,7 @@ footer {
     }
 
     .menu-list {
-        display: block;
+        display: block !important;
         font-size: 31px;
     }
 
@@ -679,7 +679,7 @@ footer {
     }
 
     .menu-list {
-        display: block;
+        display: block !important;
         font-size: 31px;
     }
 
@@ -927,9 +927,9 @@ footer {
         padding: 0px 2px 0px 7px;
     }
 
-    .menu-list {
+    /* .menu-list {
         display: none;
-    }
+    } */
 
     .header-web p {
         font-size: 1rem;

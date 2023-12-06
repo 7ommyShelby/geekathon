@@ -181,7 +181,7 @@ header .navbar .header-logo img {
 }
 
 .menu-list {
-    display: none;
+    display: none !important;
 }
 
 .header-web p {
@@ -519,7 +519,7 @@ footer {
     }
 
     .menu-list {
-        display: block;
+        display: block !important;
         font-size: 31px;
     }
 
@@ -677,7 +677,7 @@ footer {
     }
 
     .menu-list {
-        display: block;
+        display: block !important;
         font-size: 31px;
     }
 
@@ -925,9 +925,9 @@ footer {
         padding: 0px 2px 0px 7px;
     }
 
-    .menu-list {
+    /* .menu-list {
         display: none;
-    }
+    } */
 
     .header-web p {
         font-size: 1rem;
@@ -1417,6 +1417,7 @@ main {
     border-radius: 3rem;
     display: flex;
     align-items: end;
+    justify-content: space-around;
 }
 
 .app {
@@ -1456,7 +1457,6 @@ main {
     height: 25rem;
     width: 25rem;
     background-color: white;
-    position: relative;
     left: 10rem;
     transform: translateY(1.5rem);
     border: none;
