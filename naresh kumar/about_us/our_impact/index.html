@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our impact</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+      <link rel="icon" type="image/x-icon" href="https://static.tildacdn.com/tild6335-6162-4133-a331-656536626536/favicon.ico">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://unpkg.com/flickity@2.2.2/dist/flickity.pkgd.min.js"></script>
     <script>
@@ -20,6 +22,124 @@
     </script>
 </head>
 <body>
+    <script>
+        
+        function myFunction() {
+          var x = document.getElementById("Mobile-scanner");
+          var y = document.getElementById("cross-icon");
+          var z=document.querySelector(".become")
+          console.log(z);
+
+          if (x.style.display === "block") {
+            x.style.display = "none";
+            document.body.style.backgroundColor = "rgba(0,0,0,0)";
+           
+           }else {
+            x.style.display = "block";
+            document.body.style.backgroundColor = "rgba(0,0,0,0.3)";
+           
+           }
+           
+       
+           
+        }
+        
+        function show() {
+        var m = document.getElementById("menu-link");
+              if (m.style.display === "block") {
+                m.style.display = "none";
+                console.log("hello")
+               
+              } else {
+                m.style.display = "block";
+                
+               
+              }
+            }
+        
+            </script>
+    <header id="all" onscroll="myFunction()">
+        <div class="navbar">
+            <div class="header-logo">
+             
+                <img src="./logo_10_years (1).svg" alt="">
+            
+            </div>
+            
+               
+           
+            <div class="header-list">
+                <ul id="menu-link">
+                    <li class="dropdown-list"><p>inDrive mobility</p>
+                        <div class="dropdown">
+                            <p class="dropdown-font-size1"><a  href="">City ride</a></p>
+                            <p class="dropdown-font-size1"><a  href="">City to city</a></p>
+                            <p class="dropdown-font-size1"><a  href="">Courier  delivery</a></p>
+                            <p class="dropdown-font-size1"><a  href="">Freight delivery</a></p>
+
+                        </div>
+                    </li>
+                    <li><a href="./arya/indriveServices.html">inDrive services</a></li>
+                    <li><a href="">Safety</a></li>
+                    <li class="dropdown-list"><p>About us</0>
+                        <div class="dropdown">
+                            <p class="dropdown-font-size1"><a class="dropdown-font-size" href="">Our values</a></p>
+                            <p class="dropdown-font-size1"><a class="dropdown-font-size" href="">Our impact</a></p>
+                            <p class="dropdown-font-size1"><a class="dropdown-font-size" href="">Contacts</a></p>
+                            <p class="dropdown-font-size1"><a class="dropdown-font-size" href="">Blog</a></p>
+                            <p class="dropdown-font-size1"><a class="dropdown-font-size" href="">Newsroom</a></p>
+
+                        </div></li>
+                    <li><a href="">Career</a></li>
+                </ul>
+
+            </div>
+            <div class="header-web">
+                <div class="driver-btn1" >
+                <button class="header-btn1" id="lan-btn">
+                    <span>
+                        <span id="web" class="material-symbols-outlined">
+                            <img src="./language-switcher.svg" alt="">
+                            </span>
+            </span>
+            <p id="EN">En</p>
+            </button>
+            <div class="dropdown-language">
+                <p class="languages">Hindi</p>
+                <p class="languages">English</p>
+                <p class="languages">Chinese</p>
+                <p class="languages">Spanish</p>
+                <p class="languages"> Arabic</p>
+                <p class="languages">French</p>
+                <p class="languages"> Persian</p>
+                <p class="languages">German</p>
+                <p class="languages">Russian</p>
+                <p class="languages"> Malay</p>
+                <p class="languages">Portuguese</p>
+                <p class="languages"> Italian</p>
+              
+                <p class="languages">Russian</p>
+                <p class="languages"> German</p>
+                <p class="languages">Lahnda</p>
+                <p class="languages"> Tamil</p></p>
+                <p class="languages">Vietnamese</p>
+               
+           
+        </div>
+        </div>
+      
+        
+        <div class="driver-btn2">
+           <button class="header-btn2">
+            <a class="become" href="https://nekocalc.com/px-to-rem-converter">Become a driver</a></button>
+            </div>
+        </div>
+        <span href="javascript:void(0);"  onclick="show()" id="menu-bar" class="material-symbols-outlined menu-list">
+            menu
+            </span>
+        </div>
+        
+    </header>
     <div class="imagecontainer">
         <div class="carousel" data-flickity='{"autoPlay":"true"}'>
             <div class="carousel-cell sect1-img">
@@ -81,7 +201,7 @@
                         <p class="numberinglast">8</p>
                     </div>
                     <div class="detail">
-                        <p class="details">International Awards for Applicants Worldwide</p>
+                        <p class="details detailslast">International Awards for Applicants Worldwide</p>
                     </div>
                 </div>
             </div>
@@ -297,5 +417,102 @@
             </div>
         </DIV>
     </DIV>
+    <footer>
+        <div class="head-footer">
+       <div class="footer-1">
+        <div class="footer-block-1">
+        <img src="https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Flogo%2Flogo-white.png&w=48&q=75" alt="">
+        </div>
+        <div class="footer-block-2">
+    
+            <div class="footer-list-1">
+                <div><h2>inDrive mobility</h2></div>
+                <div><p><a href="">City rides</a></p></div>
+                <div><p><a href="">City to city</a></p></div>
+                <div><p><a href="">Courier delivery</a></p></div>
+                <div><p><a href="">Freight delivery</a></p></div>
+                
+    
+            </div>
+            <div class="footer-list-1">
+                <div><h2>About us</h2></div>
+                <div><p><a href="">Our values</a></p></div>
+                <div><p><a href="">Contacts</a></p></div>
+                <div><p><a href="">Blog</a></p></div>
+                <div><p><a href="">Safety</a></p></div>
+                
+    
+            </div>
+            <div class="footer-list-1">
+                <div><h2 id="h2-none">.</h2></div>
+                <div><p><a href="">Our impact</a></p></div>
+                <div><p><a href="">Career</a></p></div>
+                <div><p><a href="">inDrive services</a></p></div>
+                
+                
+    
+            </div>
+            
+        
+        </div>
+        <div class="footer-block-3">
+            <div class="driver-btn3">
+                <button class="header-btn3">
+                    <span>
+                        <span id="web2" class="material-symbols-outlined">
+                            <img src="./language-switcher-white (1).svg" alt="">
+                            </span>
+            </span>
+            <p>En</p>
+            </button>
+        </div>
+        </div>
+       </div>
+       <div class="footer-2">
+        <div class="footer-box-2">
+            <div class="footer2-block-left">
+                <img id="ft-img1" src="https://indrive.com/assets/images/icons/social_networks/wiki-white.svg" alt="">
+                <p>inDrive is an online aggregator. We do not participate in cooperations between our users: they create and perform all requests in our app on their own</p>
+                <div class="footer-store-main">
+                    <div class="footer-store">
+                    <img src="https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Ficons%2Fmarkets%2Fen%2Fapp_store.png&w=1920&q=75" alt="">
+                </div>
+            <div class="footer-store">
+                    <img src="https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Ficons%2Fmarkets%2Fen%2Fplay_market.png&w=1920&q=75" alt="">
+                </div>
+            <div class="footer-store">
+                    <img src="https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Ficons%2Fmarkets%2Fen%2Fhuawei.png&w=1920&q=75" alt="">
+                </div>
+    
+                </div>
+                <h3 id="copyright">© SUOL INNOVATIONS LTD, 2013-2023</h3>
+            </div>
+            <div class="footer2-block-right">
+                <img src="https://indrive.com/assets/images/icons/brandsign.svg" alt="">
+            </div>
+            
+        </div>
+    </div>
+    
+    <div >
+    <div class="footer-line-3"></div>
+        <div class="footer-3">
+        <ul>
+            <li><a href="">Legal documents</a></li>
+            <li><a href="">Privacy policy</a></li>
+            <li><a href="">Intellectual Property Notice</a></li>
+            <li><a href="">Terms of Use</a></li>
+            <li><a href="">Delete account</a></li>
+        </ul>
+        <ul>
+            <a href="#all">
+            <button ><img src="https://indrive.com/assets/images/icons/button-to-top.svg" alt="">
+                
+            </a>
+        </ul>
+    </div>
+    </div>
+       </div>
+    </footer>
 </body>
 </html>
