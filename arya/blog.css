@@ -1445,7 +1445,7 @@ main {
         align-items: flex-start;
         height: 60vh;
         text-align: left;
-        overflow: scroll;
+        overflow: hidden;
     }
 
     .card img {
