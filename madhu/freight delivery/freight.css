@@ -1253,7 +1253,7 @@ margin-top: 2rem;
         font-size: 67px;
         font-weight: 600;
         padding-left: 26px;
-        padding-bottom: 0px;
+        padding-bottom: 10px;
         line-height:67px;
         vertical-align:baseline;
         letter-spacing: -0.4px;
@@ -1376,6 +1376,7 @@ margin-top: 2rem;
     .heading_adv{
         font-size: 56px;
         margin-left: 30px;
+        margin-bottom: 2rem;
     }
     .section_div{
         display: flex;
@@ -1396,7 +1397,7 @@ margin-top: 2rem;
         cursor: default;
     }
     .adv_img{
-    
+    padding-bottom: 1rem;
     }
     .adv_title{
         font-size: 24px;
@@ -1558,10 +1559,16 @@ margin-top: 2rem;
         .text_side_div_div {
             width: 100vw;
         }
+        .main_div_div{
+background-position: center;
+        }
     }
     @media screen and (max-width:320px){
+        
         .main_head {
             font-size: 44px;
+    line-height: 41px;
+    margin-bottom: 2rem;
         }
         .heading_adv {
             font-size: 30px;
@@ -1595,16 +1602,36 @@ margin-top: 2rem;
             margin: 0px;
         }
     }
-    @media screen and (max-width:764px){
+    @media screen and (max-width:1024px){
+        .adv_img{
+            padding-bottom: 1rem;
+        }
+        .heading_adv_two{
+            font-size: 28px;
+    margin-bottom: 1rem;
+        }
+        .adv_img_two{
+            padding-bottom: 1rem;
+        }
+        .adv_two{
+            margin-bottom: 1rem
+        }
+        .feature_img_div{
+padding-top: 33px;
+        }
+        .features_title{
+            padding-top: 33px;
+        }
+        .main_div_div{
+            background-position: center;
+                    }
         .number_three{
             bottom: 0px;
         }
         .how_start{
             display: none;
         }    
-        .how_start_main_one_mobile{
-            display: block;
-        }
+      
         .how_start_mobile{
     
         }
@@ -1673,5 +1700,8 @@ margin-top: 2rem;
             flex-direction: column;
         }
     }
+
+  
+    
     
     
