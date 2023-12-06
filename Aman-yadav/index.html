@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+    <script src="/path/to/flickity.pkgd.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <title>Document</title>
+    <!-- carousal linking -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css"
+        integrity="sha512-X/RSQYxFb/tvuz6aNRTfKXDnQzmnzoawgEQ4X8nZNftzs8KFFH23p/BA6D2k0QCM4R0sY1DEy9MIY9b3fwi+bg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css"
+        integrity="sha512-f28cvdA4Bq3dC9X9wNmSx21rjWI+5piIW/uoc2LuQ67asKxfQjUow2MkcCNcfJiaLrHcGbed1wzYe3dlY4w9gA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <script>
+        
+        function myFunction() {
+          var x = document.getElementById("Mobile-scanner");
+          var y = document.getElementById("cross-icon");
+          var z=document.querySelector(".become")
+          console.log(z);
+
+          if (x.style.display === "block") {
+            x.style.display = "none";
+            document.body.style.backgroundColor = "rgba(0,0,0,0)";
+           
+           }else {
+            x.style.display = "block";
+            document.body.style.backgroundColor = "rgba(0,0,0,0.3)";
+           
+           }
+           
+       
+           
+        }
+        
+        function show() {
+        var m = document.getElementById("menu-link");
+              if (m.style.display === "block") {
+                m.style.display = "none";
+                console.log("hello")
+               
+              } else {
+                m.style.display = "block";
+                
+               
+              }
+            }
+        
+            </script>
+  <header id="all" onscroll="myFunction()">
+    <div class="navbar">
+        <div class="header-logo">
+         
+           <a href="../index.html"> <img src="64ad054995d96a6e7e70471f_LOGO_10_YEARS 1.svg" alt=""></a>
+        
+        </div>
+        
+           
+       
+        <div class="header-list">
+            <ul id="menu-link">
+                <li  class="dropdown-list" onclick="demo()"><p>inDrive mobility</p>
+                    <div class="dropdown" id="dropdown-list">
+                        <p class="dropdown-font-size1"><a  href="./yash/City rdies/index.html">City ride</a></p>
+                        <p class="dropdown-font-size1"><a  href="./yash/City to City/index.html">City to city</a></p>
+                        <p class="dropdown-font-size1"><a  href="./madhu/curier_delivery/curier.html">Courier  delivery</a></p>
+                        <p class="dropdown-font-size1"><a  href="./madhu/freight delivery/freight.html">Freight delivery</a></p>
+
+                    </div>
+                </li>
+                <li><a href="./arya/indriveServices.html">inDrive services</a></li>
+                <li><a href="">Safety</a></li>
+                <li  class="dropdown-list"   onclick="demoo()"><p>About us</0>
+                    <div class="dropdown" id="dropdown-list-1">
+                        <p class="dropdown-font-size1"><a class="dropdown-font-size" href="./naresh kumar/about_us/our_values/index.html">Our values</a></p>
+                        <p class="dropdown-font-size1"><a class="dropdown-font-size" href="./naresh kumar/about_us/our_impact/index.html">Our impact</a></p>
+                        <p class="dropdown-font-size1"><a class="dropdown-font-size" href="./arya/contacts.html">Contacts</a></p>
+                        <p class="dropdown-font-size1"><a class="dropdown-font-size" href="./arya/blog.html">Blog</a></p>
+                        <p class="dropdown-font-size1"><a class="dropdown-font-size" href="./mukul/Indrive/newsletter.html">Newsroom</a></p>
+
+                    </div></li>
+                <li><a href="./Aman-yadav/index.html">Career</a></li>
+            </ul>
+
+        </div>
+        <div class="header-web">
+            <div class="driver-btn1" >
+            <button class="header-btn1" id="lan-btn">
+                <span>
+                    <span id="web" class="material-symbols-outlined">
+                        language
+                        </span>
+        </span>
+        <p id="EN">En</p>
+        </button>
+        <div class="dropdown-language">
+            <p class="languages">Hindi</p>
+            <p class="languages">English</p>
+            <p class="languages">Chinese</p>
+            <p class="languages">Spanish</p>
+            <p class="languages"> Arabic</p>
+            <p class="languages">French</p>
+            <p class="languages"> Persian</p>
+            <p class="languages">German</p>
+            <p class="languages">Russian</p>
+            <p class="languages"> Malay</p>
+            <p class="languages">Portuguese</p>
+            <p class="languages"> Italian</p>
+          
+            <p class="languages">Russian</p>
+            <p class="languages"> German</p>
+            <p class="languages">Lahnda</p>
+            <p class="languages"> Tamil</p></p>
+            <p class="languages">Vietnamese</p>
+           
+       
+    </div>
+    </div>
+  
+    
+    <div class="driver-btn2">
+       <button class="header-btn2">
+        <a class="become" href="./mukul/Become_a_driver/html.html">Become a driver</a></button>
+        </div>
+    </div>
+    <span href="javascript:void(0);"  onclick="show()" id="menu-bar" class="material-symbols-outlined menu-list">
+        menu
+        </span>
+    </div>
+    
+</header>
+
+  
+<script>
+    function demo() {
+
+     var k = document.getElementById("dropdown-list");
+     
+          if (k.style.display === "block") {
+            k.style.display = "none";
+            console.log("hello")
+           
+          } else {
+            k.style.display = "block";
+            
+           
+          }
+ }
+
+ function demoo(){
+
+var l = document.getElementById("dropdown-list-1");
+
+  if (l.style.display === "block") {
+    l.style.display = "none";
+    console.log("hello")
+   
+  } else {
+    l.style.display = "block";
+    
+   
+  }
+}
+    // let dropdown=document.querySelector(".dropdown-list");
+    // dropdown.forEach((item)=>{
+    // item.addEventListener("click",(ev)=>{
+    //     let list=ev.querySelector(".dropdown")
+    // list.style.display="block"
+    // })
+ 
+    // })
+  
+    </script>
+    <section id="section-1">
+   <div class="section-head">
+    <div class="section-img"></div>
+
+<div class="section1-btn">
+<h1>Careers at <span>inDrive</span></h1>
+<button>See open roles</button>
+</div>
+   </div>
+    </section>
+    <section id="section-2">
+        <div class="sec-2-head">
+            <div class="sec-2-text">We are a  <span class="span-2">global tech </span> company with strong human values, a modern culture, competitive salaries, and professionals on our side</div>
+           
+        </div>
+        
+        <div class="section-2-box">
+            <div class="sec2-box1">
+                <div class="sec2-bx sec2bx1">175</div>
+                <p>mln app installs</p>
+            </div>
+            <div class="sec2-box1 sec2bx2">
+                <div class="sec2-bx">655</div>
+                <p>  cities</p>
+            </div>
+            <div class="sec2-box1 sec2bx3">
+                <div class="sec2-bx">148</div>
+                <p> countries</p> 
+            </div>
+            <div class="sec2-box1 sec2bx3">
+                <div class="sec2-bx">3000+</div>
+                <p>employees</p> 
+            </div>
+    
+        </div>
+    </section> 
+
+    <section id="section-3">
+<div class="section-3-head">
+<h1>Our <span class="span-1">services</span></h1>
+</div>
+    </section>
+    <section class="section-11">
+        <div class="section-11-box">
+
+
+
+            <div class="section-11-box-1 owl-carousel">
+                
+                    <div class="section-11-inner-box1">
+                        <div class="inner-box1">
+                            <span  class="image-wrapper">
+                            <img src="our-services-city car.svg"> </span>
+                            <p>
+                                City rides
+                            </p>
+                        </div>
+                        
+                    </div>
+                
+                <div class="section-11-inner-box1">
+                    <div class="inner-box1">
+                    <span  class="image-wrapper">
+                            <img  src="our-services-bus.svg"></span>
+                            <p>
+                                City to city rides
+                            </p>
+    
+                        </div>
+                        
+                    
+                </div>
+                <div class="section-11-inner-box1">
+                    
+                        <div class="inner-box1">
+                            <span  class="image-wrapper">
+                            <img  src="our-services-courier.svg"></span>
+                            <p>
+                            Couriers delivery
+                            </p>
+    
+                        </div>
+                        
+                </div>
+               
+                <div class="section-11-inner-box1">
+                    
+                        <div class="inner-box1">
+                            <span  class="image-wrapper">
+                            <img   src="our-services-cargo.svg"></span>
+                            <p>
+                                Freight delivery
+                            </p>
+                        </div>
+                        
+                </div>
+                <div class="section-11-inner-box1">
+                    
+                        <div class="inner-box1">
+                            <span  class="image-wrapper">
+                            <img  src="our-services-master.svg">
+                        </span>
+                            <p>
+                                Master
+                            </p>
+                        </div>
+                        
+                 </div>
+                 <div class="section-11-inner-box1">
+                    
+                    <div class="inner-box1">
+                        <span  class="image-wrapper">
+                        <img  src="our-services-courier.svg"></span>
+                        <p>
+                        Couriers delivery
+                        </p>
+
+                    </div>
+                    
+            </div>
+       
+            </div> 
+
+
+
+            <!-- <div class="section-11-box2">
+                <div class="left-right">
+                    <img src="https://indrive.com/assets/images/icons/media/carousel-arrow-left.svg">
+                </div>
+                <div class="left-right">
+                    <img src="https://indrive.com/assets/images/icons/media/carousel-arrow-right.svg">
+                </div>
+           / </div> -->
+        </div>
+    </section>
+    
+
+        
+
+
+<div class="section-4-head">
+    <h1 class="section-4-head-h1">New open jobs</h1>
+    <p class="section-4-head-p">6 of 150</p>
+
+    <div class="section-box">
+        <div class="block-1">
+            <div class="box1 main-box">
+                <h1>Android Developer</h1>
+                <p id="location-4"><span class="material-symbols-outlined">location_on</span>Cyprus,Limassol</p>
+                <p>We're seeking an Android Developer, who will expand the product metrics linked to the increased number of transactions in the app. The team is made up of Android, iOS and backend developers, QA testers, ...</p>
+                <ul>
+                    <li><a href="">Hybrid</a></li>
+                    <li><a href="">Full-time</a></li>
+                    <li><a href="">Senior</a></li>
+                </ul>
+            </div>
+          
+            <div class="box2 main-box">
+                <h1>Backend Engineer (Go)</h1>
+                <p id="location-4"><span class="material-symbols-outlined">location_on</span>Cyprus,Limassol</p>
+                <p>We're seeking a Backend Engineer proficient in Go, who will focus on optimizing data storage and reporting processes, developing cost-saving tools for ...</p>
+                <ul>
+                    <li><a href="">Hybrid</a></li>
+                    <li><a href="">Full-time</a></li>
+                    <li><a href="">Senior</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="block-2">
+            <div class="box1 main-box">
+                <h1>Engineering Manager</h1>
+                <p id="location-4"><span class="material-symbols-outlined">location_on</span>Cyprus,Limassol</p>
+                <p>We are looking for an Engineering Manager who will be responsible for the people, process and tech management in a product team ...</p>
+                <ul>
+                    <li><a href="">Hybrid</a></li>
+                    <li><a href="">Full-time</a></li>
+                    <li><a href="">Lead</a></li>
+                </ul>
+            </div>
+            <div class="box2 main-box">
+                <h1>Executive Assistant</h1>
+                <p id="location-4"><span class="material-symbols-outlined">location_on</span>Cyprus,Limassol</p>
+                <p>We are looking for an Executive assistant to CEO.</p>
+                <ul>
+                    <li><a href="">Office</a></li>
+                    <li><a href="">Full-time</a></li>
+                    <li><a href="">Senior</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="block-3">
+            <div class="box1 main-box">
+                <h1>Frontend Developer</h1>
+                <p id="location-4"><span class="material-symbols-outlined">location_on</span>Kazakhstan,Almaty</p>
+                <p>We're looking for experienced Frontend engineer, who will help us to develop our teammate platform..</p>
+                <ul>
+                    <li><a href="">Hybrid</a></li>
+                    <li><a href="">Full-time</a></li>
+                    <li><a href="">Senior</a></li>
+                </ul>
+            </div>
+            <div class="box2 main-box">
+                <h1>Global Projects Manager (Government Relations)</h1>
+                <p id="location-4"><span class="material-symbols-outlined">location_on</span>Kazakhstan,Almaty</p>
+                <p>We are looking for a Global Projects Manager with a solid experience in government relations to address major global policy issues and ...</p>
+                <ul>
+                    <li><a href="">Hybrid</a></li>
+                    <li><a href="">Full-time</a></li>
+                    <li><a href="">Lead</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="section6-btn">
+                
+            <button>See all open jobs</button>
+            </div>
+            <section id="section-3">
+                <div class="section-3-head">
+                <h1> <span class="span-1">Join </span>us</h1>
+                </div>
+                    </section>
+
+    </div>
+    <div class ="section-4-image">
+        <div class="join-us-img-1 section-main-image">
+            <span><img src="international.svg"alt=""></span>
+            <h2>International career</h2>
+        </div>
+            
+
+        <div  class="join-us-im-2 section-main-image ">
+        
+            <span><img src="growth.svg"alt=""></span>
+            <h2>Personal growth <br> programs</h2>
+        
+            
+    </div>
+    <div class="join-us-im-3 section-main-image">
+        
+            <span><img src="sports.svg"alt=""></span>
+            <h2>Team of soulmates in <br> sports & travel</h2>
+        
+            
+    </div>
+    <div class="join-us-im-4 section-main-image">
+    
+            <span><img src="celebrations.svg"alt=""></span>
+            <h2>After-hours fun: <br> parties & events</h2>
+        
+            
+    </div>
+    </div>
+    
+    <section id="section-3">
+        <div class="section9">
+        <div class="section-3-head">
+        <h1> United <span class="span-1"> by an inner  </span> <br>drive</h1>
+        <div>
+        <p>No single one of us is better than all of us. No matter <br> whether we’re into informal celebrating or corporative <br> volunteering, be it a Fun Day or Monday – together we are <br>stronger & happier in everything we do</p>
+        </div>
+        </div>
+        </div>
+            </section>
+            
+    
+            <section class="section-11">
+                <div class="section-11-box">
+        
+        
+        
+                    <div class="section-11-box-1 owl-carousel">
+                        
+                            <div class="section-11-inner-box3">
+                                <div class="inner-box2">
+                                    <img class="owl-image-2" src="horror-story.webp"> 
+                                    
+                                </div>
+                                
+                            </div>
+                        
+                        <div class="section-11-inner-box3">
+                            
+                                <div class="inner-box2">
+                                    <img class="owl-image-2" src="trees.webp">
+                                    
+            
+                                </div>
+                                
+                            
+                        </div>
+                        <div class="section-11-inner-box3">
+                            
+                                <div class="inner-box2">
+                                    <img class="owl-image-2" src="office-work.webp">
+                                    
+            
+                                </div>
+                                
+                        </div>
+                        <div class="section-11-inner-box3">
+                            
+                                <div class="inner-box2">
+                                    <img class="owl-image-2" src="colleagues.webp">
+                                    
+                                </div>
+                                
+                        </div>
+                        <div class="section-11-inner-box3">
+                            
+                                <div class="inner-box2">
+                                    <img class="owl-image-2" src="stand-up.webp">
+                                    
+                                </div>
+                                
+                         </div>
+                         <div class="section-11-inner-box3">
+                            <div class="inner-box2">
+                                <img class="owl-image-2" src="horror-story.webp"> 
+                                
+                            </div>
+                            
+                        </div>
+                      
+
+            </div> 
+            <div class="our-values-main">
+                <h1>Our values</h1>
+            </div>
+    <div class="ourvalues8">
+    <div class="ourvalues1 our-values-section">
+        <span class="image-wrapper"><img src="https://careers.indrive.com/assets/images/icons/advantages/bulb.svg" alt=""></span>
+                        
+        <h2>Purpose</h2>
+        <p>To be 100% committed to our vision and <br>mission. To earn money using fair trade <br>principles, and run sustainable non <br>
+        profit programs. Act ethically and do non <br> evil</p>
+                        
+    </div>
+    <div class="ourvalues2 our-values-section">
+        <span class="image-wrapper"><img src="https://careers.indrive.com/assets/images/icons/advantages/bulb.svg" alt=""></span>
+                        
+        <h2>Performance</h2>
+        <p>To be professional, effective and <br>initiative-taking. Achieve more with <br>optimal costs. Make continuous <br>
+        improvements and innovate</p>
+                        
+    </div>
+    <div class="ourvalues3 our-values-section">
+        <span class="image-wrapper"><img src="https://careers.indrive.com/assets/images/icons/advantages/bulb.svg" alt=""></span>
+                        
+        <h2>People</h2>
+        <p>To be user-centric and improve loyalty, <br>safety, and emotional connection to our <br> brand. Relentlessly develop the team <br>and hire the best people. Maintain a <br>culture of inclusivity, mutual support,<br> and personal growth</p>
+    </div>
+    </div>
+
+    <div class="image-space">
+        <div>
+        <h1>Join our team and let's <br> make our world better <br>together</h1>
+    </div>
+    <div class="join-us-image ">
+        <span><img src="join-team side.svg" alt=""></span>
+    </div>
+</div>
+    <div class="section7-btn">
+                
+        <button>See all open jobs</button>
+        </div>
+    
+        
+        <div class="improve-world">
+        <div class="improve-world1">
+        <h1>Improve the world with us</h1>
+        </div>
+        <div class="improve-world2">
+        <p>Every day, our social initiatives and programs <br> give people the chance and the choice to live <br> better, regardless of their gender, age,<br> ethnicity, culture, or status. Your input is always <br>welcome</p>
+
+        </div>
+        </div>
+    <div class="last-section">
+    <div class="last">
+
+        <p>Human <br>prosperity</p>
+        <div class="last-sec-icon">
+        <span class="image-wrapper"><img src="bulb.svg" alt=""></span>
+    </div>
+    </div>
+    <div class="last">
+        <p>Planet care</p>
+    <div class="last-sec-icon">
+        <span class="image-wrapper"><img src="Vector-3.svg" alt=""></span>
+    </div>
+</div>
+    <div class="last">
+        <p>Community <br> development</p>
+    <div class="last-sec-icon">
+        <span class="image-wrapper"><img src="Vector-2.svg" alt=""></span>
+    </div>
+</div>
+    <div class="last">
+        <p>Quality of life</p>
+    <div class="last-sec-icon">
+       
+        <span class="image-wrapper"><img src="Vector-4.svg" alt=""></span>
+    </div>
+</div>
+    </div>
+
+
+    <footer>
+    <div class="head-footer">
+       <div class="footer-1">
+        <div class="footer-block-1">
+        <img src="logo-white.png" alt="">
+        </div>
+        <div class="footer-block-2">
+    
+            <div class="footer-list-1">
+                <div><h2>inDrive mobility</h2></div>
+                <div><p><a href="">City rides</a></p></div>
+                <div><p><a href="">City to city</a></p></div>
+                <div><p><a href="">Courier delivery</a></p></div>
+                <div><p><a href="">Freight delivery</a></p></div>
+                
+    
+            </div>
+            <div class="footer-list-1">
+                <div><h2>About us</h2></div>
+                <div><p><a href="">Our values</a></p></div>
+                <div><p><a href="">Contacts</a></p></div>
+                <div><p><a href="">Blog</a></p></div>
+                <div><p><a href="">Safety</a></p></div>
+                
+    
+            </div>
+            <div class="footer-list-1">
+                <div><h2 id="h2-none">.</h2></div>
+                <div><p><a href="">Our impact</a></p></div>
+                <div><p><a href="">Career</a></p></div>
+                <div><p><a href="">inDrive services</a></p></div>
+                
+                
+    
+            </div>
+            
+        
+        </div>
+        <div class="footer-block-3">
+            <div class="driver-btn3">
+                <button class="header-btn3">
+                    <span>
+                        <span id="web2" class="material-symbols-outlined">
+                            language
+                            </span>
+            </span>
+            <p>En</p>
+            </button>
+        </div>
+        </div>
+       </div>
+       <div class="footer-2">
+        <div class="footer-box-2">
+            <div class="footer2-block-left">
+                <img id="ft-img1" src="wiki-white.svg" alt="">
+                <p>inDrive is an online aggregator. We do not participate in cooperations between our users: they create and perform all requests in our app on their own</p>
+                <div class="footer-store-main">
+                    <div class="footer-store">
+                    <img src="app_store.png" alt="">
+                </div>
+            <div class="footer-store">
+                    <img src="play_market.png" alt="">
+                </div>
+            <div class="footer-store">
+                    <img src="huawei.png" alt="">
+                </div>
+    
+                </div>
+                <h3 id="copyright">© SUOL INNOVATIONS LTD, 2013-2023</h3>
+            </div>
+            <div class="footer2-block-right">
+                <img src="brandsign.svg" alt="">
+            </div>
+            
+        </div>
+    </div>
+    
+    <div >
+    <div class="footer-line-3"></div>
+        <div class="footer-3">
+        <ul>
+            <li><a href="">Legal documents</a></li>
+            <li><a href="">Privacy policy</a></li>
+            <li><a href="">Intellectual Property Notice</a></li>
+            <li><a href="">Terms of Use</a></li>
+            <li><a href="">Delete account</a></li>
+        </ul>
+        <ul>
+            <a href="#all">
+            <button ><img src="https://indrive.com/assets/images/icons/button-to-top.svg" alt="">
+                
+            </a>
+        </ul>
+    </div>
+    </div>
+    </div>
+    </footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
+    integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+
+<script>
+    $(document).ready(function () {
+        $(".owl-carousel").owlCarousel();
+    });
+</script>
+
+
+    
+</body>
+</html>
