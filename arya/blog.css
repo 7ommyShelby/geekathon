@@ -1281,7 +1281,8 @@ main {
     .card{
         display: flex;
         align-items: flex-start;
-        text-align: left;     
+        text-align: left;  
+        height: 16rem;   
     }
 
     .text {
@@ -1329,7 +1330,8 @@ main {
     .card{
         display: flex;
         align-items: flex-start;
-        text-align: left;     
+        text-align: left;    
+        height: 16rem; 
     }
 
     .text {
