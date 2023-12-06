@@ -1282,7 +1282,7 @@ main {
         display: flex;
         align-items: flex-start;
         text-align: left;  
-        height: 16rem;   
+        height: 16rem !important;   
     }
 
     .text {
@@ -1331,7 +1331,7 @@ main {
         display: flex;
         align-items: flex-start;
         text-align: left;    
-        height: 16rem; 
+        height: 16rem !important; 
     }
 
     .text {
