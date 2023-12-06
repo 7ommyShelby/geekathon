@@ -3481,7 +3481,48 @@ margin-top: 2rem;
             transform: translateX(65vw);
             top: 33rem;
         }
+
+        .sec-2-box{
+            margin-left: 2rem;
+            margin-right: 2rem;
+        }
+        
+        .section-4-head{
+            margin-left: 2rem;
+            margin-right: 2rem;
+        }
+
+        .section-5-head{
+            margin-left: 2rem;
+            margin-right: 2rem;
+        }
+
+        .section-7{
+            margin-left: 2rem;
+            margin-right: 2rem;
+        }
+
+        .section10-box{
+            margin-left: 2rem;
+            margin-right: 2rem;
+        }
+
+        .section-11-box{
+            margin-left: 2rem;
+            margin-right: 2rem;
+        }
+
+        .section-9-box{
+            margin-left: 2rem;
+            margin-right: 2rem;
+        }
+
+        .head-footer{
+            margin-left: 2rem;
+            margin-right: 2rem;
+        }
     }
+    
     
 
     @media screen and (min-width: 426px) and (max-width: 768px){
