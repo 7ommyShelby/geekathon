@@ -534,8 +534,8 @@ footer{
     justify-self: center;
     margin-left: 10px;
     overflow-x: hidden;
-    margin-top: -85rem;
-    /* top: 10vh; */
+    margin-top: -30rem;
+    top: 0vh;
 }
 }
 
@@ -2489,7 +2489,7 @@ font-size: 12px;
         font-weight: 600;
         font-family: "Noto Sans", sans-serif;
         rotate: 90deg;
-        top: 26.5vh;
+        top: 26vh;
         bottom: 0vh;
         right: 38vw;
         letter-spacing: -1.28px;
@@ -2613,7 +2613,7 @@ font-size: 12px;
         justify-content: flex-end;
         width: 70vw;
         height: 30vh;
-        top: -35vh;
+        top: -36vh;
         left: 26vw;
         z-index: 1;
         background-image: url("./6508562854af7771ab9805c7_Indrive-decoration.svg");
@@ -2667,7 +2667,7 @@ font-size: 12px;
         flex-direction: column;
         width: 100%;
         overflow: hidden;
-        top: -60vh;
+        top: -50vh;
     }
     .box1Cont, .box2Cont {
         width: 100%;
@@ -2700,7 +2700,7 @@ font-size: 12px;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        top: -140vh;
+        top: -90vh;
     }
     .section6flex{
         position: relative;
@@ -2777,7 +2777,7 @@ font-size: 12px;
         flex-wrap: wrap;
         flex-direction: column;
         margin: 0;
-        top: -110vh;
+        top: -30vh;
         gap: 25px;
         width: 95vw;
     }
@@ -2811,7 +2811,7 @@ font-size: 12px;
         flex-direction: column;
         width: 100%;
         overflow: hidden;
-        top: -60vh;
+        top: -50vh;
     }
     .box1Cont, .box2Cont {
         width: 100%;
@@ -2843,7 +2843,7 @@ font-size: 12px;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        top: -160vh;
+        top: -60vh;
         align-self: center;
     }
     .section6flex{
@@ -2901,7 +2901,7 @@ font-size: 12px;
         flex-direction: column;
         margin: 20px;
         gap: 25px;
-        top: -85vh;
+        top: 20vh;
     }
     .container9{
         display: flex;
@@ -2962,7 +2962,7 @@ font-size: 12px;
         height: auto;
         justify-content: center;
         flex-direction: row;
-        top: -150vh;
+        top: -30vh;
         justify-content: center;
         align-items: center;
     }
@@ -3033,7 +3033,7 @@ font-size: 12px;
         flex-direction: column;
         margin: 0;
         gap: 25px;
-        top: -155vh;
+        top: -25vh;
         overflow-x: hidden;
     }
     .container11{
@@ -3066,7 +3066,7 @@ font-size: 12px;
         width: 100%;
         overflow: hidden;
         padding: 10px 20px;
-        top: -95vh;
+        top: -80vh;
     }
     .box1Contsection11, .box2Contsection11 {
         width: 100%;
@@ -3100,7 +3100,7 @@ font-size: 12px;
         width: 95vw;
         justify-content: center;
         flex-direction: column;
-        top: -250vh;
+        top: -110vh;
         align-items: center;
         overflow-x: hidden;
     }
@@ -3114,7 +3114,7 @@ font-size: 12px;
     .section12columns{
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row;
+        flex-direction: column-reverse;
         margin: 0;
         justify-content: center;
         gap: 10px;
@@ -3132,7 +3132,7 @@ font-size: 12px;
         height: auto;
         object-fit: cover;
         justify-items: center;
-        top: 27vh;
+        top: 0vh;
     }
     .imageIcon12{
         width: 70%;
@@ -3146,7 +3146,7 @@ font-size: 12px;
     } */
     .lastcolumn12{
         position: relative;
-        top: -85vh;
+        top: 0vh;
         width: 100%;
     }
     .lastcolumn12Image{
@@ -3161,7 +3161,7 @@ font-size: 12px;
         margin: 20px 10px;
         border-radius: 48px;
         padding: 0;
-        top: -250vh;
+        top: -90vh;
         overflow-x: hidden;
         justify-content: center;
         align-items: center;
