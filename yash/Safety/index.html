@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>inDrive. Offer your fare</title>
+</head>
+
+<body>
+    <header id="all" onscroll="myFunction()">
+        <div class="navbar">
+            <div class="header-logo">
+             
+               <a href="./index.html"> <img src="./images/logo_10_years.svg" alt=""></a>
+            
+            </div>
+            
+               
+           
+            <div class="header-list">
+                <ul id="menu-link">
+                    <li  class="dropdown-list" onclick="demo()"><p>inDrive mobility</p>
+                        <div class="dropdown" id="dropdown-list">
+                            <p class="dropdown-font-size1"><a  href="">City ride</a></p>
+                            <p class="dropdown-font-size1"><a  href="">City to city</a></p>
+                            <p class="dropdown-font-size1"><a  href="./madhu/curier_delivery/curier.html">Courier  delivery</a></p>
+                            <p class="dropdown-font-size1"><a  href="./madhu/freight delivery/freight.html">Freight delivery</a></p>
+    
+                        </div>
+                    </li>
+                    <li><a href="./arya/indriveServices.html">inDrive services</a></li>
+                    <li><a href="">Safety</a></li>
+                    <li  class="dropdown-list"   onclick="demoo()"><p>About us</0>
+                        <div class="dropdown" id="dropdown-list-1">
+                            <p class="dropdown-font-size1"><a class="dropdown-font-size" href="">Our values</a></p>
+                            <p class="dropdown-font-size1"><a class="dropdown-font-size" href="">Our impact</a></p>
+                            <p class="dropdown-font-size1"><a class="dropdown-font-size" href="">Contacts</a></p>
+                            <p class="dropdown-font-size1"><a class="dropdown-font-size" href="./arya/blog.html">Blog</a></p>
+                            <p class="dropdown-font-size1"><a class="dropdown-font-size" href="">Newsroom</a></p>
+    
+                        </div></li>
+                    <li><a href="">Career</a></li>
+                </ul>
+    
+            </div>
+            <div class="header-web">
+                <div class="driver-btn1" >
+                <button class="header-btn1" id="lan-btn">
+                    <span>
+                        <span id="web" class="material-symbols-outlined">
+                            language
+                            </span>
+            </span>
+            <p id="EN">En</p>
+            </button>
+            <div class="dropdown-language">
+                <p class="languages">Hindi</p>
+                <p class="languages">English</p>
+                <p class="languages">Chinese</p>
+                <p class="languages">Spanish</p>
+                <p class="languages"> Arabic</p>
+                <p class="languages">French</p>
+                <p class="languages"> Persian</p>
+                <p class="languages">German</p>
+                <p class="languages">Russian</p>
+                <p class="languages"> Malay</p>
+                <p class="languages">Portuguese</p>
+                <p class="languages"> Italian</p>
+              
+                <p class="languages">Russian</p>
+                <p class="languages"> German</p>
+                <p class="languages">Lahnda</p>
+                <p class="languages"> Tamil</p></p>
+                <p class="languages">Vietnamese</p>
+               
+           
+        </div>
+        </div>
+      
+        
+        <div class="driver-btn2">
+           <button class="header-btn2">
+            <a class="become" href="https://nekocalc.com/px-to-rem-converter">Become a driver</a></button>
+            </div>
+        </div>
+        <span href="javascript:void(0);"  onclick="show()" id="menu-bar" class="material-symbols-outlined menu-list">
+            menu
+            </span>
+        </div>
+        
+    </header>
+    
+      
+    <script>
+        function demo() {
+    
+         var k = document.getElementById("dropdown-list");
+         
+              if (k.style.display === "block") {
+                k.style.display = "none";
+                console.log("hello")
+               
+              } else {
+                k.style.display = "block";
+                
+               
+              }
+     }
+    
+     function demoo(){
+    
+    var l = document.getElementById("dropdown-list-1");
+    
+      if (l.style.display === "block") {
+        l.style.display = "none";
+        console.log("hello")
+       
+      } else {
+        l.style.display = "block";
+        
+       
+      }
+    }
+        // let dropdown=document.querySelector(".dropdown-list");
+        // dropdown.forEach((item)=>{
+        // item.addEventListener("click",(ev)=>{
+        //     let list=ev.querySelector(".dropdown")
+        // list.style.display="block"
+        // })
+     
+        // })
+      
+    </script>
+
+   <main>
+        <!-- section-1 -->
+    <section class="section-1">
+        <div class="cover-image">
+                <div class="hero">
+                    <div class="name">
+                        <h1>
+                            <span>
+                                Safety pact
+                            </span>
+                            <br>
+                            United for safer rides
+                        </h1>
+                    </div>
+                    <div class="link">
+                        <div> <a href=""> inDrive</a> </div>
+                        <div> <a href=""> Passengers</a> </div>
+                        <div> <a href=""> Drivers</a> </div>
+                    </div>            
+                </div>
+        </div>
+    </section>
+
+    <section class="section-2">
+        <div class="photo">
+            <img src="./images/6488724f5335ebba1b241edf_safety_center 1.png">
+        </div>
+        <div class="text">
+            <h1>
+                We want all of us to be on the same page about safety
+            </h1>
+            <p>
+                And so, we're calling this page our safety pact – a 3-sided alliance between passengers, drivers and inDrive, with our mutual responsibilities for every single ride
+            </p>
+        </div>
+    </section>
+
+        <section class="section-3">
+            <div class="arya">
+                <div class="text1">
+                    <h1>
+                        «Our customers’ safety is as important to inDrive as ensuring fair play in business and equal opportunity for all»
+                    </h1>
+                </div>
+                <div class="image">
+                    <img src="./images/section-3.div.image.svg">
+                </div>
+            </div>
+        </section>
+
+        <div class="section2">
+            <div class="container">
+                <div class="highlighter">
+                    <div class="head"><span class="underline">Passengers'</span> side</div>
+                    <div class="info">Back seat responsibility goes far beyond the safety belt</div>
+                </div>
+                <div class="image1">
+                    <img src="./images/64a2bdbb39d3121f9b1c610f_pen.png" alt="">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="section1">
+            <div class="section1container">
+                <div class="columns">
+                    <div class="column">
+                        <div class="iconBox">
+                            <img class="icon" src="./images/64887ab1d3c47c7791d6b10b_doc.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <p class="heading"><strong>Driver verification</strong></p>
+                            <p class="para">Document and photo-verification is a must for all our drivers. If the driver or car doesn't match the profile in the app, the passenger should cancel the ride and contact the support team</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="iconBox">
+                            <img class="icon" src="./images/64887a87d3c47c7791d685b5_people-2.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <p class="heading"><strong>Choose your driver or passenger</strong></p>
+                            <p class="para">With inDrive, passengers always get to pick their drivers. They can check driver rating, car model, and ride history, all before accepting the offer. This goes both ways: drivers are free to choose passengers based on their profiles, routes and price offers as well</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="iconBox">
+                            <img src="./images/648abd4406c63a5c79328b11_driver-license-outline.svg" alt="" class="icon">
+                        </div>
+                        <div class="content">
+                            <p class="heading"><strong>Safety button</strong></p>
+                            <p class="para">The shield icon on the main screen is for quickly contacting support, calling the police or an ambulance</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="iconBox">
+                            <img src="./images/64887d4510d195a9d989cc4d_chat-ask.svg" alt="" class="icon">
+                        </div>
+                        <div class="content">
+                            <p class="heading"><strong>Support</strong></p>
+                            <p class="para">Whether you're a driver or a passenger, to report a violation or dispute please get in touch with our support team. Contact support@indriver.com or via the in-app chat</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="iconBox">
+                            <img src="./images/64887d5bf9da975dc66215d9_geo.svg" alt="" class="icon">
+                        </div>
+                        <div class="content">
+                            <p class="heading"><strong>Share your ride </strong></p>
+                            <p class="para">Both passengers and drivers can share their ride details with friends or family. They'll see the route, info on driver or passenger and vehicle, as well as real-time trip status</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="iconBox">
+                            <img src="./images/64887d734e9077bf2de661cd_person-star.svg" alt="" class="icon">
+                        </div>
+                        <div class="content">
+                            <p class="heading"><strong>Trusted contact</strong></p>
+                            <p class="para">In the app, everyone can save the phone number of a trusted person for quick contact in an emergency. Trusted numbers can be added at any time, even during the ride</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="iconBox">
+                            <img src="./images/64887ac7f977c173e59989f6_safety-outline.svg" alt="" class="icon">
+                        </div>
+                        <div class="content">
+                            <p class="heading"><strong>Rate your driver or passenger</strong></p>
+                            <p class="para">Remember to rate your ride, whether you're a driver or a passenger. If you don't want to ride with that person again, give them one star and tap 'Don't Show My Requests'. They won't be able to see your ride requests/offers in the future</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="section2">
+            <div class="container">
+                <div class="highlighter">
+                    <div class="head"><span class="underline">Passengers'</span> side</div>
+                    <div class="info">Back seat responsibility goes far beyond the safety belt</div>
+                </div>
+                <div class="image1">
+                    <img src="./images/64a28d41d39df3771e8b26f2_gerl-p-800.png" alt="">
+
+                </div>
+            </div>
+        </div>
+        
+        <div class="section3">
+            <div class="section3container">
+                <div class="columns">
+                    <div class="column">
+                        <div class="iconBox">
+                            <img src="./imgaes/648abbcd24d7794b98ac85d8_heart-outline.svg" alt="" class="icon">
+                        </div>
+                        <div class="content">
+                            <p class="heading"><strong>Respect for all</strong></p>
+                            <p class="para">Please respect your driver, their car, personal space, and privacy. Remember to greet your driver and thank them for the ride and any help with your luggage. Little things like this make your mutual experience much better</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="iconBox">
+                            <img src="./images/648abd4406c63a5c79328b11_driver-license-outline.svg" alt="" class="icon">
+                        </div>
+                        <div class="content">
+                            <p class="heading"><strong>One Person – One Account</strong></p>
+                            <p class="para">Please do not share your inDrive account with others. When using your account, you are responsible for your actions. It also helps our drivers recognize you more easily</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="iconBox">
+                            <img src="./images/648abd730d85962f59381d1a_dislike.svg" alt="" class="icon">
+                        </div>
+                        <div class="content">
+                            <p class="heading"><strong>Discrimination</strong></p>
+                            <p class="para">We have a zero-tolerance policy towards discrimination of any kind. Please treat your driver with dignity and respect</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="iconBox">
+                            <img src="./images/648abd9ef05d659650e2a68c_prohibited.svg" alt="" class="icon">
+                        </div>
+                        <div class="content">
+                            <p class="heading"><strong>Prohibited Substances</strong></p>
+                            <p class="para">Please do not consume or transport alcohol (in open containers) or illegal drugs while using our service</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="iconBox">
+                            <img src="./images/648abdc51ca0200e7d8e2592_child.svg" alt="" class="icon">
+                        </div>
+                        <div class="content">
+                            <p class="heading"><strong>Riding with Kids</strong></p>
+                            <p class="para">Children and under-18s must always be accompanied by an adult when using inDrive. If you're traveling with a child, let us know in advance if you need a child seat</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="iconBox">
+                            <img src="./images/648abdfb3377a682ff0095fc_pet-paw.svg" alt="" class="icon">
+                        </div>
+                        <div class="content">
+                            <p class="heading"><strong>Riding with Pets</strong></p>
+                            <p class="para">Let the driver know beforehand if you're bringing a pet. Please bring a carrier or a blanket to cover the car seat and reduce the risk of mess</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="details1">
+            <div class="boxcontainer">
+                <h1 class="safetyheading">Passengers' safety tips</h1>
+                <div class="box">
+                    <div class="box1">
+                        <p class="headingOfsafety">Before the ride</p>
+                        <br><br><br>
+                        <div class="rules">
+                            <div class="line">
+                                <div class="number">1</div>
+                                <div class="statement">Check the license plate, car model, and driver photo before starting a trip</div>
+                            </div>
+                            <div class="line">
+                                <div class="number">2</div>
+                                <div class="statement">Cancel the ride if the info doesn't match.</div>
+                            </div>
+                            <div class="line">
+                                <div class="number">3</div>
+                                <div class="statement">Let us know the entrance number or precise pick-up location, and double-check the destination address when you book. If you have more than 4 passengers, bulky luggage or a pet, please mention this in the comments section.</div>
+                            </div>
+                            <div class="line">
+                                <div class="number">4</div>
+                                <div class="statement">Changed your mind? Let the driver know and cancel your trip.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <p class="headingOfsafety">During the ride</p>
+                        <br><br><br>
+                        <div class="rules">
+                            <div class="line">
+                                <div class="number">1</div>
+                                <div class="statement">Don't forget to buckle up.</div>
+                            </div>
+                            <div class="line">
+                                <div class="number">2</div>
+                                <div class="statement">Please inform your driver if you want to change your destination or add stops. Note that this is likely to change your fare</div>
+                            </div>
+                            <div class="line">
+                                <div class="number">3</div>
+                                <div class="statement">Treat your driver's vehicle with care: don't smoke, eat, or drink anything but water in the car. Feel free to ask the driver to change the music, adjust the temperature, or close the window. Just make sure your request works for both of you.</div>
+                            </div>
+                            <div class="line">
+                                <div class="number">4</div>
+                                <div class="statement">Tap the shield icon on the main screen to contact emergency services.</div>
+                            </div>
+                            <div class="line">
+                                <div class="number">5</div>
+                                <div class="statement">Use the same button to share your ride details with a friend or family member.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <p class="headingOfsafety">After the ride</p>
+                        <br><br><br>
+                        <div class="rules">
+                            <div class="line">
+                                <div class="number">1</div>
+                                <div class="statement"><p>Remember to rate your ride. Your feedback helps us understand your experience and improve the service. To help prevent any disagreements, try to avoid criticizing the driver during the ride. If you give your driver one star, they'll no longer see your ride requests in their feed.</p></div>
+                            </div>
+                            <div class="line">
+                                <div class="number">2</div>
+                                <div class="statement"><p>Left an item in the car? Please get in touch with our support team via email at <a href="" class="mail">support@indrive.com</a> or through the in-app chat.</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section4">
+            <div class="container">
+                <div class="highlighter">
+                    <div class="head"><span class="underline">Drivers'</span> side</div>
+                    <div class="info">Your  professionalism, well-being and even mood all matter</div>
+                </div>
+                <div class="image2">
+                    <img src="./images/64a28f260c4ed5f800738f5f_driver-p-800.png" alt="">
+                </div>
+            </div>
+        </div>
+    
+        <div class="section5">
+            <div class="section5container">
+                <div class="columns">
+                    <div class="column">
+                        <div class="iconBox">
+                            <img src="./images/64887ac7f977c173e59989f6_safety-outline.svg" alt="" class="icon">
+                        </div>
+                        <div class="content">
+                            <p class="heading"><strong>Fatigue is a red flag</strong></p>
+                            <p class="para">Drivers are responsible for the safety of any ride they take. It's impossible to concentrate on the road without high-quality and timely rest – so please do not drive more than 10 hours in a row.  Take breaks whenever you need them. inDrive offers the fairest conditions for drivers; there's no need to overdo it</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="iconBox">
+                            <img src="./images/648abd4406c63a5c79328b11_driver-license-outline.svg" alt="" class="icon">
+                        </div>
+                        <div class="content">
+                            <p class="heading"><strong>One Person – One Account</strong></p>
+                            <p class="para">Please, do not share your inDrive account with others. When using your account, you are responsible for your actions. It also helps our passengers recognize you more easily</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="iconBox">
+                            <img src="./images/648abd730d85962f59381d1a_dislike.svg" alt="" class="icon">
+                        </div>
+                        <div class="content">
+                            <p class="heading"><strong>No discrimination</strong></p>
+                            <p class="para">We have a zero-tolerance policy against discrimination of any kind. Please, treat your passenger with dignity and respect</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="iconBox">
+                            <img src="./images/648abd9ef05d659650e2a68c_prohibited.svg" alt="" class="icon">
+                        </div>
+                        <div class="content">
+                            <p class="heading"><strong>Prohibited Substances</strong></p>
+                            <p class="para">Please do not consume or transport alcohol (in open containers) or illegal drugs while using our service</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="iconBox">
+                            <img src="./images/648abdc51ca0200e7d8e2592_child.svg" alt="" class="icon">
+                        </div>
+                        <div class="content">
+                            <p class="heading"><strong>Riding with Kids</strong></p>
+                            <p class="para">Children and under-18s must always be accompanied by an adult when using inDrive. If you accept a ride with a child, please prepare a child seat in advance</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="iconBox">
+                            <img src="./images/648abdfb3377a682ff0095fc_pet-paw.svg" alt="" class="icon">
+                        </div>
+                        <div class="content">
+                            <p class="heading"><strong>Riding with Pets</strong></p>
+                            <p class="para">Let the passenger know beforehand if you're allergic or intolerant to pets. To avoid any possible inconvenience for both of you, do not accept orders with pets</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="details2">
+            <div class="boxcontainer2">
+                <h1 class="safetyheading">Drivers' safety tips</h1>
+                <div class="box">
+                    <div class="box2">
+                        <p class="headingOfsafety">Before the ride</p>
+                        <br><br><br>
+                        <div class="rules">
+                            <div class="line">
+                                <div class="number">1</div>
+                                <div class="statement">Fatigue behind the wheel is more dangerous than you think – please do not take orders if you feel tired or unwell.</div>
+                            </div>
+                            <div class="line">
+                                <div class="number">2</div>
+                                <div class="statement">Please double-check the final destination or pick-up point before accepting the order. If you feel unsafe to go somewhere, it’s better to skip this offer.</div>
+                            </div>
+                            <div class="line">
+                                <div class="number">3</div>
+                                <div class="statement">Check the passenger’s photo before starting a trip. Cancel the ride if the info doesn't match.</div>
+                            </div>
+                            <div class="line">
+                                <div class="number">4</div>
+                                <div class="statement">Changed your mind? Let the passenger know and cancel your trip.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box2">
+                        <p class="headingOfsafety">During the ride</p>
+                        <br><br><br>
+                        <div class="rules">
+                            <div class="line">
+                                <div class="number">1</div>
+                                <div class="statement">Don't forget to buckle up.</div>
+                            </div>
+                            <div class="line">
+                                <div class="number">2</div>
+                                <div class="statement">Please inform your passenger if you need to refuel the car – it's better to double-check the oil in advance.</div>
+                            </div>
+                            <div class="line">
+                                <div class="number">3</div>
+                                <div class="statement">Treat your passenger with care: don't smoke, eat, or drink anything but water in the car. </div>
+                            </div>
+                            <div class="line">
+                                <div class="number">4</div>
+                                <div class="statement">Be ready to change the music, adjust the temperature, or close the window. Just make sure the request works for both of you. Tap the shield icon on the main screen to contact emergency services. </div>
+                            </div>
+                            <div class="line">
+                                <div class="number">5</div>
+                                <div class="statement">Use the same button to share your ride details with a friend or family member.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box2">
+                        <p class="headingOfsafety">After the ride</p>
+                        <br><br><br>
+                        <div class="rules">
+                            <div class="line">
+                                <div class="number">1</div>
+                                <div class="statement"><p>Remember to rate your ride. Your feedback helps us understand your experience and improve the service.</p></div>
+                            </div>
+                            <div class="line">
+                                <div class="number">2</div>
+                                <div class="statement"><p>To help prevent any disagreements, try to avoid criticizing the passenger during the ride. If you give your passenger one star, they'll no longer see your offer requests in their feed.</p></div>
+                            </div>
+                            <div class="line">
+                                <div class="number">3</div>
+                                <div class="statement"><p>Found a forgotten item in the car? Please get in touch with our support team via email at <a href="" class="mail">support@indrive.com</a> or through the in-app chat.</p></div>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a id="appbtn" href="">Download the app</a>
+
+        <div class="section6">
+            <div class="app">
+                <h2>Download our free <span>app</span></h2>
+                <a href="">Download the app</a>
+    
+            </div>
+    
+            <div class="qr">
+                <p>Scan the QR code with your smartphone camera</p>
+                <img src="../../arya/img/inDrive. Offer your fare — Mozilla Firefox 12_2_2023 9_12_06 PM.png" alt="">
+            </div>
+        </div>
+    
+        <div class="main">
+            <div class="text">
+                <h1>From Pact to Act</h1>
+                <p>inDrive safety initiatives around the globe</p>
+            </div>
+    
+            <div class="section">
+                <div class="card">
+                    <img src="../../card1.png" alt="">
+                    <div class="st">
+                        <h3>Standing for safer streets in Egypt</h3>
+                        <p>InDrive illuminates the streets of Cairo and Alexandria with special billboards, to help people
+                            feel
+                            safe in their neighborhoods at night. Especially while waiting for their cars</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../../card2.png" alt="">
+                    <div class="st">
+                        <h3>Women safety in Mexico is a matter of training</h3>
+                        <p>3 out of 4 women have experienced some type of violence or harassment in public transport. inDrive came up with an educational program for drivers</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../../card3.png" alt="">
+                    <div class="st">
+                        <h3>Pitstop for drivers in Pakistan</h3>
+                        <p>inDrive drivers deserve safe, inviting spaces where they can take a break, relax, communicate with each other, join educational programs and ask for assistance or support</p>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+
+        <footer>
+            <div class="head-footer">
+                <div class="footer-1">
+                    <div class="footer-block-1">
+                        <img src="https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Flogo%2Flogo-white.png&w=48&q=75"
+                            alt="">
+                    </div>
+                    <div class="footer-block-2">
+    
+                        <div class="footer-list-1">
+                            <div>
+                                <h2>inDrive mobility</h2>
+                            </div>
+                            <div>
+                                <p><a href="../../yash/City rdies/index.html">City rides</a></p>
+                            </div>
+                            <div>
+                                <p><a href="../../yash/City to City/index.html">City to city</a></p>
+                            </div>
+                            <div>
+                                <p><a href="../../madhu/curier_delivery/curier.html">Courier delivery</a></p>
+                            </div>
+                            <div>
+                                <p><a href="../../madhu/freight delivery/freight.html">Freight delivery</a></p>
+                            </div>
+    
+    
+                        </div>
+                        <div class="footer-list-1">
+                            <div>
+                                <h2>About us</h2>
+                            </div>
+                            <div>
+                                <p><a href="../../naresh kumar/about_us/our_values/index.html">Our values</a></p>
+                            </div>
+                            <div>
+                                <p><a href="../../arya/contacts.css">Contacts</a></p>
+                            </div>
+                            <div>
+                                <p><a href="../../arya/blog.html">Blog</a></p>
+                            </div>
+                            <div>
+                                <p><a href="">Safety</a></p>
+                            </div>
+    
+    
+                        </div>
+                        <div class="footer-list-1">
+                            <div>
+                                <h2 id="h2-none">.</h2>
+                            </div>
+                            <div>
+                                <p><a href="../../naresh kumar/about_us/our_impact/">Our impact</a></p>
+                            </div>
+                            <div>
+                                <p><a href="../../Aman-yadav/index.html">Career</a></p>
+                            </div>
+                            <div>
+                                <p><a href="../../arya/indriveServices.html">inDrive services</a></p>
+                            </div>
+    
+    
+    
+                        </div>
+    
+    
+                    </div>
+                    <div class="footer-block-3">
+                        <div class="driver-btn3">
+                            <button class="header-btn3">
+                                <span>
+                                    <span id="web2" class="material-symbols-outlined">
+                                        language
+                                    </span>
+                                </span>
+                                <p>En</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-2">
+                    <div class="footer-box-2">
+                        <div class="footer2-block-left">
+                            <img id="ft-img1" src="./images/wiki-white.svg"
+                                alt="">
+                            <p>inDrive is an online aggregator. We do not participate in cooperations between our users:
+                                they create and perform all requests in our app on their own</p>
+                            <div class="footer-store-main">
+                                <div class="footer-store">
+                                    <img src="./images/app_store.png"
+                                        alt="">
+                                </div>
+                                <div class="footer-store">
+                                    <img src="./images/play_market.png"
+                                        alt="">
+                                </div>
+                                <div class="footer-store">
+                                    <img src="./images/huawei.png"
+                                        alt="">
+                                </div>
+    
+                            </div>
+                            <h3 id="copyright">© SUOL INNOVATIONS LTD, 2013-2023</h3>
+                        </div>
+                        <div class="footer2-block-right">
+                            <img src="./images/brandsign.svg" alt="">
+                        </div>
+    
+                    </div>
+                </div>
+    
+                <div>
+                    <div class="footer-line-3"></div>
+                    <div class="footer-3">
+                        <ul>
+                            <li><a href="">Legal documents</a></li>
+                            <li><a href="">Privacy policy</a></li>
+                            <li><a href="">Intellectual Property Notice</a></li>
+                            <li><a href="">Terms of Use</a></li>
+                            <li><a href="">Delete account</a></li>
+                        </ul>
+                        <ul>
+                            <a href="#all">
+                                <button><img src="./images/button-to-top.svg" alt="">
+    
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+  
+    </main>
+
+</body>
+
+>
