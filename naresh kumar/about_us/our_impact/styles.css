@@ -528,7 +528,7 @@ width: 100% !important;
  font-size: 12px;
 }
 footer{
-    position: absolute;
+    position: relative;
     align-items: center;
     align-self: center;
     justify-self: center;
