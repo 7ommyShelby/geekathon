@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
+    scroll-behavior: smooth;
     font-family: "Noto Sans",sans-serif;
 }
 body{
     background: #f7f8f7;
     overflow-x: hidden;
+
 }
 
 header{
