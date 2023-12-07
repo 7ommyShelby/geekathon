@@ -174,9 +174,6 @@ cursor: pointer;
 .menu-list{
     display: none !important;
 }
-#menu-bar{
-    display: none;
-}
 
 .header-web p{
 font-size: 1rem;
@@ -225,7 +222,7 @@ footer{
     position: relative;
     padding-bottom: 2rem;
     margin-top: -37rem;
-    /* top: 90vh; */
+    /* top: -10vh; */
     font-family: "Noto Sans", sans-serif;
 }
 .head-footer{
@@ -492,6 +489,16 @@ margin-top: 2rem;
        font-size: 31px;
    }
 /* footer */
+footer{
+    position: relative;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+    margin-left: 10px;
+    overflow-x: hidden;
+    margin-top: -30rem;
+    top: 0vh;
+}
 .footer-1{
    display: inline !important;
 }
@@ -527,16 +534,7 @@ width: 100% !important;
 .footer-3 ul li a{
  font-size: 12px;
 }
-footer{
-    position: relative;
-    align-items: center;
-    align-self: center;
-    justify-self: center;
-    margin-left: 10px;
-    overflow-x: hidden;
-    margin-top: -30rem;
-    top: 0vh;
-}
+
 }
 
 
@@ -644,7 +642,7 @@ footer{
 
 /* footer */
 footer{
-    margin-top: -85rem;
+    margin-top: -20rem;
 }
 .footer-1{
    display: inline !important;
@@ -1057,15 +1055,15 @@ font-size: 12px;
 
 
  /* footer */
-    footer{
-        background-color: #1b1b1c;
-        margin-inline: auto;
-        border-top-right-radius: 48px;
-        border-top-left-radius: 48px;
-        width: 90%;
-        padding-bottom: 2rem;
-        margin-top: -30rem;
-    }
+ footer{
+    background-color: #1b1b1c;
+    margin-inline: auto;
+    border-top-right-radius: 48px;
+    border-top-left-radius: 48px;
+    width: 90%;
+    padding-bottom: 2rem;
+    margin-top: -50rem;
+}
     .head-footer{
         margin-left:2rem ;
         margin-right: 2rem;
@@ -1226,6 +1224,9 @@ font-size: 12px;
         width: 100%;
         height: 0.8px;
         background-color: white;
+    }
+    footer{
+        top: 70vh;
     }
 }
 
@@ -2334,7 +2335,7 @@ font-size: 12px;
         background-color: #A7E92F;
         height: 60px;
         min-width: 95%;
-        top: 80vh;
+        top: 82.5vh;
         /* left: 1.5vw; */
         justify-content: center;
         align-items: center;
@@ -2489,7 +2490,7 @@ font-size: 12px;
         font-weight: 600;
         font-family: "Noto Sans", sans-serif;
         rotate: 90deg;
-        top: 22vh;
+        top: 25vh;
         bottom: 0vh;
         right: 38vw;
         letter-spacing: -1.28px;
@@ -2613,7 +2614,7 @@ font-size: 12px;
         justify-content: flex-end;
         width: 70vw;
         height: 30vh;
-        top: -33vh;
+        top: -34.5vh;
         left: 26vw;
         z-index: 1;
         background-image: url("./6508562854af7771ab9805c7_Indrive-decoration.svg");
@@ -3378,7 +3379,7 @@ font-size: 12px;
         background-color: #A7E92F;
         height: 60px;
         min-width: 95%;
-        top: 90vh;
+        top: 87vh;
         /* left: 1.5vw; */
         justify-content: center;
         align-items: center;
@@ -3656,14 +3657,14 @@ font-size: 12px;
     .decoration{
         position: relative;
         justify-content: flex-end;
-        width: 100vw;
-        height: 38vh;
-        top: -43vh;
-        left: 20vw;
+        width: 90vw;
+        height: 45vh;
+        left: 3vw;
+        top: -46vh;
+        background-size: cover;
         z-index: 1;
         background-image: url("./6508562854af7771ab9805c7_Indrive-decoration.svg");
         background-repeat: no-repeat;
-        background-size: contain;
         /* border-radius: 32px; */
     
     }
@@ -3688,7 +3689,7 @@ font-size: 12px;
         width: 100%;
         margin: 0;
         position: relative;
-        bottom: 25vh;
+        bottom: 35vh;
         gap: 10px;
         justify-content: flex-start;
         padding: 30px;
@@ -3712,7 +3713,7 @@ font-size: 12px;
         flex-direction: column;
         width: 100%;
         overflow: hidden;
-        top: -60vh;
+        top: -55vh;
     }
     .box1Cont, .box2Cont {
         width: 100%;
@@ -4267,13 +4268,7 @@ font-size: 12px;
     .mapcountdetails{
         font-size: 8.5px;
     }
-    .decoration{
-        width: 90vw;
-        height: 45vh;
-        left: 5vw;
-        top: -46vh;
-        background-size: cover;
-    }
+    
     .imageIcon8{
         width: 200px;
     }
@@ -4320,137 +4315,7 @@ font-size: 12px;
         bottom: -20vh;
     }
 }
-/* @media screen and (min-width:545px) and (max-width: 768px){
-    .logo1{
-        left: 1vw;
-    }
-    .numberinglast{
-        top: 12vh;
-    }
-    .mapNumber1, .mapNumber2, .mapNumber3, .mapNumber4{
-        width: 70px;
-        height: 70px;
-    }
-    .mapNumber1{
-        top: 30vh;
-    }
-    .mapNumber4{
-        top: 30vh;
-    }
-    .mapcount{
-        font: 24px;
-    }
-    .mapcountdetails{
-        font-size: 8.5px;
-    }
-    .column8{
-        top: 40vh;
-    }
-    .section9{
-        top: -90vh;
-    }
-    .section11{
-        top: -155vh;
-        height: auto;
-    }
-    .column12{
-        top: 40vh;
-    }
-    
-} */
 
-/* @media screen and (min-width: 609px) and (max-width: 655) {
-    .mapNumber1, .mapNumber2, .mapNumber3, .mapNumber4{
-        width: 70px;
-        height: 70px;
-    }
-    .mapNumber1{
-        top: 35vh;
-    }
-    .mapNumber4{
-        top: 33vh;
-    }
-    .mapNumber2{
-        top: 30vh;
-    }
-    .mapNumber3{
-        top: 20vh;
-    }
-    .mapcount{
-        font-size: 24px;
-    }
-    .mapcountdetails{
-        font-size: 8.5px;
-    }
-} */
-/* @media screen and (min-width: 768px) {
-    .numberinglast{
-        top: 15vh;
-    }
-    .mapNumber1{
-        top: 45vh;
-    }
-    .mapNumber4{
-        top: 43vh;
-    }
-    .mapNumber2{
-        top: 35vh;
-    }
-    .mapNumber3{
-        top: 25vh;
-    }
-    .mapcount{
-        font-size: 24px;
-    }
-    .mapcountdetails{
-        font-size: 8.5px;
-    }
-    .decoration{
-        width: 90vw;
-        height: 45vh;
-        left: 5vw;
-        top: -46vh;
-        background-size: cover;
-    }
-    .imageIcon8{
-        width: 200px;
-    }
-    .section8{
-        top: -160vh;
-    }
-    .column8{
-        top: 60vh;
-    }
-    .column12{
-        height: 20rem;
-        top: 50vh;
-    }
-    .lastcolumn12{
-        top: -115vh;
-        width: 500px;
-        height: 500px;
-    }
-    .imageIcon12{
-        width: 300px;
-    }
-    .SECTION13{
-        top: -300vh;
-        height: 24rem;
-    }
-    .profile{
-        position: relative;
-        top: 15vh;
-        padding-bottom: 10px;
-        gap: 20px;
-    }
-    .pic{
-        width: 100px;
-        height: 100px;
-    }
-    .name{
-        font-size: 16px;
-    }
-} */
 @media screen and (min-width:769px) and (max-width:1023px) {
     .imagecontainer{
         display: flex;
