@@ -7,6 +7,7 @@
 }
 body{
     background: #f7f8f7;
+    overflow-x: hidden;
 }
 
 header{
@@ -322,6 +323,7 @@ font-size: 16px;
 .box-section-main{
     width: 95%;
     margin: auto;
+    position: relative;
  }
  .section-1{
    
@@ -603,7 +605,7 @@ padding-bottom: 1rem;
    }
    .sec-3-head .sec-3-text{
     margin-left: 3rem;
-    width: 100%;
+    width: auto;
    }
    .sec-3-head .sec-3-text h2{
     font-size: 3.5rem;
@@ -1477,8 +1479,8 @@ background-color: #a7e92f;
        
            }
            .box-section1{
-            margin-top: 54% !important;
-            margin-left: -18%;
+            bottom: 50px;
+            left: -41px;
            }
        #top-sec{
 color: white;
@@ -1502,7 +1504,10 @@ display: inline;
        
            }
            .box-section1 .box-1{
-
+margin: auto;
+           }
+           .bx-1{
+            margin: 0;
            }
            .flickity-page-dots{
                bottom: -2rem !important;
@@ -1888,9 +1893,19 @@ width: 100% !important;
 .footer-3 ul li a{
  font-size: 12px;
 }
+.footer-3 ul button{
+    right: 2px;
+    height: 45px;
+    width: 45px;
+}
 }
 
-@media screen and (min-width:375px) and (max-width:425px) {
+@media screen and (min-width:375px) and (max-width:430px) {
+    .footer-3 ul button{
+        right: 2px;
+        width: 45px;
+        height: 45px;
+    }
     /* header */
     header .navbar .header-logo img{
         width: 74%;
@@ -2029,8 +2044,7 @@ background-color: #a7e92f;
        
            }
            .box-section1{
-            margin-top: 42% !important;
-            margin-left: -8%;
+           bottom: 50px;
            }
        #top-sec{
 color: white;
@@ -2054,7 +2068,7 @@ display: inline;
        
            }
            .box-section1 .box-1{
-
+            margin: auto;
            }
            .flickity-page-dots{
                bottom: -2rem !important;
@@ -2442,7 +2456,7 @@ width: 100% !important;
 }
 }
 
-@media screen and (min-width:426px) and (max-width:768px){
+@media screen and (min-width:431px) and (max-width:768px){
 
    
 
