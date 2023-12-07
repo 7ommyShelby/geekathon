@@ -40,10 +40,10 @@ padding-top: 0.8rem;
 .dropdown-list{
    cursor: pointer;
 }
-.dropdown-list:hover .dropdown{
+/* .dropdown-list:hover .dropdown{
 display: block;
 z-index: 2;
-}
+} */
 .dropdown{
 display:none ;
 position: absolute;
