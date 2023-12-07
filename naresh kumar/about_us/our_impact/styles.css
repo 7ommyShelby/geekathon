@@ -2489,7 +2489,7 @@ font-size: 12px;
         font-weight: 600;
         font-family: "Noto Sans", sans-serif;
         rotate: 90deg;
-        top: 26vh;
+        top: 22vh;
         bottom: 0vh;
         right: 38vw;
         letter-spacing: -1.28px;
@@ -2613,7 +2613,7 @@ font-size: 12px;
         justify-content: flex-end;
         width: 70vw;
         height: 30vh;
-        top: -36vh;
+        top: -33vh;
         left: 26vw;
         z-index: 1;
         background-image: url("./6508562854af7771ab9805c7_Indrive-decoration.svg");
@@ -2700,7 +2700,7 @@ font-size: 12px;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        top: -90vh;
+        top: -95vh;
     }
     .section6flex{
         position: relative;
@@ -2777,7 +2777,7 @@ font-size: 12px;
         flex-wrap: wrap;
         flex-direction: column;
         margin: 0;
-        top: -30vh;
+        top: -45vh;
         gap: 25px;
         width: 95vw;
     }
@@ -2843,7 +2843,7 @@ font-size: 12px;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        top: -60vh;
+        top: -70vh;
         align-self: center;
     }
     .section6flex{
@@ -2868,7 +2868,7 @@ font-size: 12px;
         object-fit: cover;
         justify-items: center;
         position: relative;
-        top: 30vh;
+        top: 20vh;
     }
     .lastcolumn8{
         width: 100%;
@@ -2901,7 +2901,7 @@ font-size: 12px;
         flex-direction: column;
         margin: 20px;
         gap: 25px;
-        top: 20vh;
+        top: 10vh;
     }
     .container9{
         display: flex;
@@ -2930,7 +2930,7 @@ font-size: 12px;
         flex-direction: column;
         width: 100%;
         overflow: hidden;
-        top: -85vh;
+        top: -67vh;
     }
     .box1Contsection9, .box2Contsection9 {
         width: 95%;
@@ -3117,7 +3117,7 @@ font-size: 12px;
         flex-direction: column-reverse;
         margin: 0;
         justify-content: center;
-        gap: 10px;
+        gap: 40px;
         padding: 20px;
         align-items: center;
         align-self: center;
@@ -3975,7 +3975,7 @@ font-size: 12px;
         flex-direction: column;
         width: 100%;
         overflow: hidden;
-        top: -85vh;
+        top: -70vh;
     }
     .box1Contsection9, .box2Contsection9 {
         width: 95%;
