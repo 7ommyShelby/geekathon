@@ -1898,13 +1898,29 @@ width: 100% !important;
     height: 45px;
     width: 45px;
 }
+/*  */
+footer{
+    width: 100%;
+}
+#section-8{
+    margin-left: 0;
+    margin-right: 0;
+}
+
 }
 
 @media screen and (min-width:375px) and (max-width:430px) {
+    #section-8{
+        margin-left: 0;
+        margin-right: 0;
+    }
     .footer-3 ul button{
         right: 2px;
         width: 45px;
         height: 45px;
+    }
+    .sec-4-img{
+
     }
     /* header */
     header .navbar .header-logo img{
@@ -2354,8 +2370,8 @@ margin-top: 0rem  !important;
        margin-right: 0rem !important;
    }
    .sec-6-btn{
-       margin-top: 19vh !important;
-       margin-left: 8vw;
+    margin: 19vh 0px !important;
+    margin-left: 8vw !important;
    }
    .sec-6-btn button{
        padding: 4px 4px !important;
@@ -2453,6 +2469,9 @@ width: 100% !important;
 }
 .footer-3 ul li a{
  font-size: 12px;
+}
+footer{
+    width: 100%;
 }
 }
 
