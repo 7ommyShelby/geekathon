@@ -1267,7 +1267,7 @@ margin-top: 2rem;
         /* margin-left: 0.5rem; */
         font-weight: 600;
         color: white;
-        top: 76vh;
+        top: 40vh;
         letter-spacing: -1.26px;
         line-height: 32px;
         width: 70%;
@@ -2204,7 +2204,7 @@ margin-top: 2rem;
         /* margin-left: 0.5rem; */
         font-weight: 600;
         color: white;
-        top: 75vh;
+        top: 40vh;
         letter-spacing: -1.26px;
         line-height: 32px;
         width: 70%;
@@ -3140,7 +3140,7 @@ margin-top: 2rem;
            /* margin-left: 0.5rem; */
            font-weight: 600;
            color: white;
-           top: 78vh;
+           top: 40vh;
            letter-spacing: -1.26px;
            line-height: 32px;
            width: 70%;
@@ -5255,7 +5255,7 @@ margin-top: 2rem;
             margin: 20px 0 30px 0;
             position: absolute;
             margin-left: -6rem;
-            top: 8rem;
+            top: 9rem;
             background-color: #fff;
         }
         
@@ -5296,7 +5296,7 @@ margin-top: 2rem;
             word-spacing: 2px;
             letter-spacing: 0.2px;
             margin-left: -6rem;
-            top: 35rem;
+            top: 36rem;
         }
         
         .download-button a{
@@ -5563,7 +5563,7 @@ margin-top: 2rem;
         
         .text-box{
             position: absolute;
-            width: 30%;
+            width: 36%;
             height: 50%;
             right: 14rem; 
             margin-left: 2rem;
