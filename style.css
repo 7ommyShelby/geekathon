@@ -661,7 +661,7 @@ position: relative;
 .sec-4-btn{
     position: absolute;
     top: 0px;
-    margin: 15rem 2rem;
+    margin: 17rem 2rem;
 }
 .sec-4-btn button{
     border: none;
@@ -885,7 +885,7 @@ position: relative;
 .sec-6-btn{
     position: absolute;
     top: 0px;
-    margin: 15rem 2rem;
+    margin: 18rem 2rem;
 }
 .sec-6-btn button{
     border: none;
@@ -992,7 +992,7 @@ position: relative;
 .sec-8-btn{
     position: absolute;
     top: 0px;
-    margin: 15rem 2rem;
+    margin: 17rem 2rem;
 }
 .sec-8-btn button{
     border: none;
@@ -1138,9 +1138,10 @@ footer{
     margin-inline: auto;
     border-top-right-radius: 48px;
     border-top-left-radius: 48px;
-    width: 90%;
+    width:95%;
     padding-bottom: 2rem;
     margin-top: 7rem;
+   
 }
 .head-footer{
     margin-left:2rem ;
