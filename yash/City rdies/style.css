@@ -15,6 +15,7 @@
 
 body{
     background: #f7f8f7;
+    overflow-x: hidden;
 }
 
 /* header{
@@ -249,7 +250,7 @@ font-size: 16px;
     /* margin-left: 0.5rem; */
     font-weight: 600;
     color: white;
-    top: 36rem;
+    top: 34rem;
 }
 
 .cover-text p span{
@@ -270,8 +271,8 @@ font-size: 16px;
     margin: 20px 0 30px 0;
     position: absolute;
     /* margin-left: 72rem; */
-    transform: translateX(60vw);
-    top: 9rem;
+    transform: translateX(69vw);
+    top: 6rem;
     background-color: #fff;
 }
 
@@ -312,8 +313,8 @@ font-size: 16px;
     word-spacing: 2px;
     letter-spacing: 0.2px;
     /* margin-left: 72rem; */
-    transform: translateX(60vw);
-    top: 37rem;
+    transform: translateX(69vw);
+    top: 34rem;
 }
 
 .download-button a{
