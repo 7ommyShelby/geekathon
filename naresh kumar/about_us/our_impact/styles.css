@@ -797,7 +797,7 @@ padding-left: 28rem;
 
 /* footer */
 footer{
-    margin-top: -95rem;
+    margin-top: -100rem;
 }
 .footer-1{
   display: inline !important;
@@ -3379,7 +3379,7 @@ font-size: 12px;
         background-color: #A7E92F;
         height: 60px;
         min-width: 95%;
-        top: 87vh;
+        top: 77vh;
         /* left: 1.5vw; */
         justify-content: center;
         align-items: center;
@@ -3857,7 +3857,7 @@ font-size: 12px;
         flex-direction: column;
         width: 100%;
         overflow: hidden;
-        top: -60vh;
+        top: -55vh;
     }
     .box1Cont, .box2Cont {
         width: 100%;
@@ -4111,7 +4111,7 @@ font-size: 12px;
         width: 100%;
         overflow: hidden;
         padding: 10px 20px;
-        top: -95vh;
+        top: -85vh;
     }
     .box1Contsection11, .box2Contsection11 {
         width: 100%;
@@ -4191,7 +4191,7 @@ font-size: 12px;
     } */
     .lastcolumn12{
         position: relative;
-        top: -90vh;
+        top: -100vh;
         width: 100%;
     }
     .lastcolumn12Image{
@@ -4293,6 +4293,7 @@ font-size: 12px;
     .SECTION13{
         top: -280vh;
         height: 24rem;
+        left: 2vw;
     }
     .profile{
         position: relative;
