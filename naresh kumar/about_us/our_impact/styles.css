@@ -390,7 +390,7 @@ margin-top: 2rem;
     background-color: white;
 }
 
-@media screen and (max-width:374px){
+@media screen and (max-width:375px){
 /* header */
     header .navbar .header-logo img{
         width: 74%;
