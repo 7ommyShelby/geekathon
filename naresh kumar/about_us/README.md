@@ -74,13 +74,6 @@ We extend our gratitude to the original InDrive website development team for cre
 
 I would like to extend my heartfelt gratitude to my mentor, Ayush Bansal, for being the guiding force behind the successful completion of my project on the InDrive website clone.
 
-Ayush, your unwavering support, insightful guidance, and dedication to my learning journey have been invaluable. Your expertise and mentorship not only helped me navigate the complexities of web development but also inspired me to push my boundaries and deliver a project that I am proud of.
-
-Your patience in answering my questions, providing constructive feedback, and sharing your wealth of knowledge has truly made a significant impact on my skills and confidence as a developer.
-
-This project would not have reached its full potential without your mentorship. Thank you, Ayush, for being an exceptional mentor and for helping me grow both professionally and personally.
-
-
 ## Learning Resources
 
 A heartfelt thank you to [Geekster](https://www.geekster.io/) for providing invaluable learning resources that equipped us with the skills and knowledge necessary for the successful completion of this project.

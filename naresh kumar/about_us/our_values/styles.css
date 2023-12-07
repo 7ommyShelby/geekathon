@@ -1685,7 +1685,6 @@ font-size: 12px;
     }
     .firstCont{
         position: relative;
-        z-index: 2;
         font-size: 1.5rem;
         padding: 0 20px;
         top: 15vh;
@@ -2105,7 +2104,6 @@ font-size: 12px;
         background-size: cover;
     }
     .firstCont{
-        z-index: 2;
         font-size: 1.5rem;
         padding: 0 20px;
         top: 32vh;
