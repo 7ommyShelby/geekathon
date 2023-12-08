@@ -245,8 +245,9 @@ font-size: 16px;
 }
 
 .cover-text{
-    position: absolute;
+    /* position: absolute; */
     font-size: 70px;
+    margin-top: 26rem;
     /* margin-left: 0.5rem; */
     font-weight: 600;
     color: white;
@@ -1262,7 +1263,7 @@ margin-top: 2rem;
     }
     
     .cover-text{
-        position: absolute;
+        /* position: absolute; */
         font-size: 30px;
         /* margin-left: 0.5rem; */
         font-weight: 600;
@@ -1271,6 +1272,8 @@ margin-top: 2rem;
         letter-spacing: -1.26px;
         line-height: 32px;
         width: 70%;
+        margin-top: 15rem;
+
 
     }
     

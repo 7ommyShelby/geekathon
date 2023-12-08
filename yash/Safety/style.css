@@ -249,6 +249,7 @@ main{
     flex-direction: column;
     justify-content: flex-end;
     padding: 2rem;
+    gap: 2rem;
 }
 
 .name h1{
@@ -314,6 +315,7 @@ main{
     width: 40%;
     display: flex;
     flex-direction: column;
+    gap: 3rem;
 
 }
 
@@ -482,7 +484,7 @@ main{
 .boxcontainer, .boxcontainer2{
     display: flex;
     width: 95%;
-    height: 90%;
+    height: 92%;
     background-color: #ffffff;
     border-radius: 32px;
     align-items: center;
@@ -1557,7 +1559,11 @@ main{
 
 .main{
    /* background-color: brown; */
+    display: flex;
     width: 95%;
+    gap: 5rem;
+    flex-direction: column;
+    margin-top: 4rem;
 }
 
 .text h1{
