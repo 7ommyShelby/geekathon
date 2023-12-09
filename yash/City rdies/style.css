@@ -1627,9 +1627,9 @@ margin-top: 2rem;
     
     .text-box{
         position: absolute;
-        top: 153rem;
+        /* top: 153rem; */
         width: 80%;
-        height: 40%;
+        height: 58%;
         right: 2rem; 
         /* font-size: 20px; */
     }
@@ -1805,6 +1805,7 @@ margin-top: 2rem;
         position: absolute;
         left: 1.5rem;
         top: 232rem;
+        /* display: none; */
     }
     
     .section8-box .rules .download-box a{
@@ -4468,7 +4469,7 @@ margin-top: 2rem;
         right: 5rem;
         top: 159rem; 
         margin-left: 2rem;
-        margin-top: 7rem;
+        margin-top: 2rem;
         /* font-size: 20px; */
     }
     
@@ -5259,7 +5260,7 @@ margin-top: 2rem;
             margin: 20px 0 30px 0;
             position: absolute;
             margin-left: -6rem;
-            top:5rem;
+            top:12rem;
             background-color: #fff;
         }
         
@@ -5300,7 +5301,7 @@ margin-top: 2rem;
             word-spacing: 2px;
             letter-spacing: 0.2px;
             margin-left: -6rem;
-            /* margin-top: 5rem; */
+            margin-top: 5rem;
             /* top: 36rem; */
         }
         
@@ -5569,7 +5570,7 @@ margin-top: 2rem;
         .text-box{
             /* position: absolute; */
             width: 36%;
-            height: 50%;
+            height: 8%;
             right: 14rem; 
             margin-left: 26rem;
             /* font-size: 20px; */
@@ -6270,7 +6271,7 @@ margin-top: 2rem;
 .text-box{
     position: absolute;
     width: 40%;
-    height: 40%;
+    height: 33%;
     right: 14rem; 
     /* font-size: 20px; */
 }
